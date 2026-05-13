@@ -14,7 +14,7 @@ const DoresSecao = () => (
           O QUE MACHUCA
         </span>
         <h2 className="text-3xl md:text-5xl font-heading font-extrabold text-primary-dark mb-6 text-balance leading-[1.1]">
-          Sabe o que machuca mais? <br className="hidden md:block" />
+          Sabe o que machuca mais? <br />
           Não é não saber. É <span className="text-destructive underline decoration-destructive/20 underline-offset-8">querer ajudar e travar</span>.
         </h2>
       </div>
