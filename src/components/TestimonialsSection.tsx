@@ -68,7 +68,7 @@ const TestimonialsSection = () => {
 
         <div className="mt-12 text-center max-w-2xl mx-auto">
           <p className="text-xl md:text-2xl font-medium italic text-primary-dark/80 leading-relaxed">
-            "Eu achei que não sabia mais ensinar. Mas ele só queria que eu sentasse com ele."
+            “Ele largou o celular por um tempo e sentou comigo. Foi simples, mas pra mim significou muito.”
           </p>
         </div>
 
