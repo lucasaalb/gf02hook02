@@ -86,7 +86,7 @@ const ExemplosConteudo = () => {
         <div className="mb-16 animate-fade-in pt-8">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-5xl font-heading font-extrabold text-primary-dark mb-6 leading-tight">
-              Simples pra você entender. <span className="text-primary italic">Leve para ele aprender.</span>
+              Simples pra você. <br className="sm:hidden" /> <span className="text-primary italic">Leve para ele.</span>
             </h2>
             <p className="text-lg md:text-xl text-foreground/60 max-w-2xl mx-auto leading-relaxed">
               As atividades são claras, organizadas e pensadas para fazer junto. Nada complicado.
