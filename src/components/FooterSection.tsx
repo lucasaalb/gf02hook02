@@ -8,7 +8,7 @@ const FooterSection = () => (
           Ele não vai ser pequeno pra sempre.
         </h2>
         <p className="text-white/80 text-lg mb-8">
-          Talvez daqui alguns anos ele esqueça muita coisa. Mas dificilmente esquece quem sentou ao lado dele… quando aprender parecia difícil.
+          Ele pode esquecer muita coisa. Mas não esquece quem sentou ao seu lado quando aprender parecia difícil.
         </p>
         <div className="space-y-4">
           <a 
