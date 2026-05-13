@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Nunito:wght@400;500;600;700;800;900&family=Dancing+Script:wght@700&display=swap');
+
+html { scroll-behavior: smooth; }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Brand palette updated to requested hex colors converted to HSL */
+    --background: 41 68% 93%;           /* #F9F2E3 Creme */
+    --foreground: 25 33% 18%;           /* #3D2B1F Marrom Escuro */
+
+    --card: 0 0% 100%;                  /* Branco para cards */
+    --card-foreground: 25 33% 18%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 25 33% 18%;
+
+    --primary: 36 79% 47%;              /* #D4891A Âmbar principal */
+    --primary-foreground: 0 0% 100%;
+
+    --primary-dark: 25 33% 18%;         /* #3D2B1F Texto principal */
+    --primary-glow: 37 86% 56%;         /* #F0A830 Dourado */
+
+    --secondary: 41 68% 93%;
+    --secondary-foreground: 25 33% 18%;
+
+    --muted: 41 40% 90%;
+    --muted-foreground: 25 10% 40%;
+
+    --accent: 27 75% 50%;               /* #E07820 Laranja secundário */
+    --accent-foreground: 0 0% 100%;
+
+    --accent-strong: 37 86% 56%;        /* #F0A830 */
+    --support-blue: 203 80% 57%;
+    --support-green: 96 53% 51%;
+
+    --destructive: 4 78% 56%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 36 20% 85%;
+    --input: 36 20% 85%;
+    --ring: 36 79% 47%;
+
+    --radius: 1rem;
+
+    --cta: 47 95% 65%;                  /* #F3D58A (aproximado Amarelo) */
+    --cta-hover: 47 95% 75%;            /* Amarelo mais claro no hover */
+    --cta-foreground: 0 0% 100%;
+    --success: 96 53% 51%;
+    --section-alt: 0 0% 100%;           /* Seções brancas conforme pedido */
+
+    --price-badge: 47 95% 75%;          /* #F3D58A (Badge amarela) */
+
+    --gradient-hero: linear-gradient(180deg, hsl(41 68% 93%), hsl(0 0% 100%));
+    --gradient-bonus: linear-gradient(135deg, hsl(263 30% 51%), hsl(263 30% 41%));
+    --gradient-cta: linear-gradient(135deg, hsl(36 79% 47%), hsl(37 86% 56%));
+    --shadow-card: 0 4px 24px -4px rgba(61, 43, 31, 0.1);
+    --shadow-card-hover: 0 12px 40px -4px rgba(61, 43, 31, 0.15);
+    --shadow-cta: 0 8px 28px -4px rgba(212, 137, 26, 0.4);
+    --shadow-premium: 0 20px 60px -10px rgba(61, 43, 31, 0.2);
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  body { @apply bg-background text-foreground font-body antialiased; }
+  h1, h2, h3, h4, h5, h6 { @apply font-heading; }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+  .bg-gradient-bonus { background: var(--gradient-bonus); }
+  .bg-gradient-cta { background: var(--gradient-cta); }
+  .shadow-premium { box-shadow: var(--shadow-premium); }
+  .scrollbar-hide::-webkit-scrollbar { display: none; }
+  .scrollbar-hide { scrollbar-width: none; }
+}
+
+@keyframes pulse-cta {
+  0%, 100% { transform: scale(1); box-shadow: 0 8px 28px -4px rgba(243, 213, 138, 0.4); }
+  50% { transform: scale(1.04); box-shadow: 0 12px 36px -2px rgba(243, 213, 138, 0.6); }
+}
+.animate-pulse-cta { animation: pulse-cta 2s ease-in-out infinite; }
+
+@keyframes blink-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.55; }
+}
+.animate-blink-soft { animation: blink-soft 1.6s ease-in-out infinite; }
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent, rgba(240, 168, 48, 0.5), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2.5s linear infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+.animate-float { animation: float 4s ease-in-out infinite; }
