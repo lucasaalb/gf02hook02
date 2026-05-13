@@ -51,15 +51,11 @@ const PricingSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-stretch">
           {/* Essencial */}
-          <div className="bg-white rounded-[2rem] p-8 md:p-10 shadow-xl shadow-primary/5 border border-primary/5 flex flex-col hover:shadow-2xl transition-all duration-300">
-            <div className="text-center mb-8">
-              <h3 className="text-xl md:text-2xl font-heading font-extrabold text-primary-dark mb-2">Kit Essencial</h3>
-              <span className="inline-block bg-accent/10 text-accent text-[10px] font-black px-4 py-1.5 rounded-full uppercase tracking-[0.15em]">
-                Para começar agora
-              </span>
-            </div>
+          <div className="bg-white rounded-3xl p-6 md:p-8 shadow-sm border border-border/50 flex flex-col hover:shadow-md transition-all">
+            <h3 className="text-lg md:text-xl font-heading font-extrabold text-primary-dark mb-1 text-center">Kit Essencial</h3>
+            <p className="text-center text-muted-foreground text-xs md:text-sm mb-6 bg-accent/10 py-1 rounded-full px-4 inline-block mx-auto font-bold text-accent">Para começar agora</p>
 
-            <ul className="space-y-4 mb-10 flex-1">
+            <ul className="space-y-3 mb-6 flex-1">
               {[
                 "Atividades de grafismo",
                 "Exercícios de coordenação",
@@ -67,83 +63,69 @@ const PricingSection = () => {
                 "Material pronto para usar",
                 "Acesso digital imediato",
               ].map((item) => (
-                <li key={item} className="flex items-start gap-3 text-foreground/80 text-sm md:text-base font-medium">
-                  <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <Check className="w-3 h-3 text-primary" strokeWidth={3} />
-                  </div>
-                  {item}
+                <li key={item} className="flex items-start gap-2 text-foreground text-sm">
+                  <Check className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" /> {item}
                 </li>
               ))}
             </ul>
 
-            <div className="text-center mb-8 pt-6 border-t border-border/50">
-              <span className="text-muted-foreground/50 line-through text-sm font-bold">De R$ 47,00</span>
-              <div className="flex flex-col items-center mt-1">
-                <span className="text-[10px] font-black text-primary/40 uppercase tracking-widest mb-1">Por apenas</span>
-                <div className="text-4xl md:text-5xl font-extrabold text-primary-dark tracking-tighter">R$ 9,90</div>
-              </div>
-              <p className="text-[10px] text-muted-foreground font-bold uppercase tracking-widest mt-2">Pagamento único</p>
+            <div className="text-center mb-5">
+              <span className="text-destructive line-through text-sm">De R$ 47,00</span>
+              <p className="text-[11px] text-muted-foreground mt-0.5">Hoje por apenas</p>
+              <div className="text-3xl md:text-4xl font-extrabold text-primary-dark mt-1">R$ 9,90</div>
+              <p className="text-[11px] text-muted-foreground mt-1">Pagamento único</p>
             </div>
 
             <Button
               variant="ctaOutline"
               size="sm"
-              className="w-full text-sm md:text-base py-7 rounded-full border-2 border-primary/20 shadow-sm text-primary-dark transition-all hover:scale-105 hover:bg-primary/5 active:scale-95"
+              className="w-full text-sm sm:text-base py-4 rounded-full border-2 shadow-sm text-primary-dark transition-all hover:scale-105"
               onClick={handleEssencialClick}
             >
-              <span className="whitespace-normal leading-tight font-extrabold">QUERO O ESSENCIAL →</span>
+              <span className="whitespace-normal leading-[1.2]">QUERO COMEÇAR COM O ESSENCIAL →</span>
             </Button>
           </div>
 
           {/* Completo - Destacado */}
-          <div className="relative bg-card rounded-[2.5rem] p-8 md:p-10 border-[4px] border-accent flex flex-col shadow-2xl shadow-accent/20 md:scale-105 transition-all duration-500 hover:scale-[1.07]">
-            <div className="absolute -top-5 left-1/2 -translate-x-1/2 bg-[#F3D58A] text-primary-dark px-6 py-2 rounded-full text-xs md:text-sm font-black flex items-center gap-2 whitespace-nowrap shadow-xl uppercase tracking-[0.1em] border-2 border-white">
-              <Crown className="w-4 h-4 fill-primary-dark/20" /> 🔥 MELHOR ESCOLHA
+          <div className="relative bg-card rounded-3xl p-6 md:p-8 border-[3px] border-accent flex flex-col shadow-premium md:scale-105 animate-pulse-destaque">
+            <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#F3D58A] text-primary-dark px-5 py-1.5 rounded-full text-xs md:text-sm font-extrabold flex items-center gap-1 whitespace-nowrap shadow-lg uppercase tracking-wide">
+              <Crown className="w-4 h-4" /> 🔥 Melhor escolha
             </div>
 
-            <div className="text-center mb-8 mt-4">
-              <h3 className="text-xl md:text-2xl font-heading font-extrabold text-primary-dark mb-2">Kit Completo</h3>
-              <p className="text-muted-foreground text-xs md:text-sm font-medium">Tudo para criar uma rotina especial longe das telas</p>
-            </div>
+            <h3 className="text-lg md:text-xl font-heading font-extrabold text-primary-dark mb-1 text-center mt-3">Kit Completo</h3>
+            <p className="text-center text-muted-foreground text-xs md:text-sm mb-5">Tudo para criar uma rotina especial longe das telas</p>
 
-            <ul className="space-y-4 mb-10 flex-1">
+            <ul className="space-y-3 mb-6 flex-1">
               {[
                 "Tudo do Kit Essencial",
                 "Mais atividades para variar os dias",
-                "🎁 Bônus: 30 Desenhos Bíblicos",
-                "🎁 Bônus: Planner de Rotina",
-                "🎁 Bônus: Cartões de Incentivo",
-                "Acesso Vitalício",
-                "Suporte via WhatsApp",
+                "🎁 Bônus: 30 Páginas de Desenhos Bíblicos",
+                "🎁 Bônus: Planner de Rotina com os Netos",
+                "🎁 Bônus: Cartões de Incentivo para imprimir",
+                "Acesso Vitalício (pague uma vez só)",
+                "Suporte prioritário via WhatsApp",
+                "Garantia Incondicional de 7 dias",
               ].map((item) => (
-                <li key={item} className="flex items-start gap-3 text-foreground font-bold text-sm md:text-base">
-                  <div className="w-5 h-5 rounded-full bg-support-green/20 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <Check className="w-3 h-3 text-support-green" strokeWidth={3} />
-                  </div>
-                  {item}
+                <li key={item} className="flex items-start gap-2 text-foreground text-sm font-semibold">
+                  <Check className="w-4 h-4 text-support-green mt-0.5 flex-shrink-0" /> {item}
                 </li>
               ))}
             </ul>
 
-            <div className="text-center mb-8 pt-6 border-t border-accent/20 bg-accent/5 -mx-8 md:-mx-10 px-8 md:px-10 py-6">
-              <span className="text-muted-foreground/50 line-through text-sm font-bold">De R$ 97,00</span>
-              <div className="flex flex-col items-center mt-1">
-                <span className="text-[10px] font-black text-accent uppercase tracking-widest mb-1">Por apenas</span>
-                <div className="text-5xl md:text-6xl font-extrabold text-primary-dark tracking-tighter">R$ 19,90</div>
-              </div>
-              <p className="text-xs text-support-green font-black uppercase tracking-widest mt-2 animate-pulse">Preço Promocional</p>
+            <div className="text-center mb-5 bg-accent/10 rounded-2xl py-4 px-3">
+              <span className="text-destructive line-through text-sm">De R$ 97,00</span>
+              <p className="text-[11px] text-muted-foreground mt-0.5">Hoje por apenas</p>
+              <div className="text-4xl md:text-5xl font-extrabold text-primary-dark mt-1">R$ 19,90</div>
+              <p className="text-xs text-support-green font-extrabold mt-1">Melhor custo-benefício</p>
             </div>
 
-            <Button variant="cta" size="sm" className="w-full text-sm md:text-base py-8 rounded-full shadow-2xl shadow-accent/30 text-primary-dark transition-all hover:scale-105 active:scale-95 group" asChild>
-              <a href={COMPLETO_URL} className="whitespace-normal h-auto py-2 leading-tight">
-                <span className="block font-black text-lg">QUERO O KIT COMPLETO →</span>
-                <span className="text-[10px] uppercase tracking-widest opacity-70 group-hover:opacity-100">Acesso imediato e vitalício</span>
-              </a>
+            <Button variant="cta" size="sm" className="w-full text-sm sm:text-base py-4 rounded-full shadow-lg text-primary-dark transition-all hover:scale-105" asChild>
+              <a href={COMPLETO_URL} className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO O KIT COMPLETO PARA USAR COM ELE →</a>
             </Button>
 
-            <div className="flex items-center justify-center gap-2 mt-6 text-[11px] text-muted-foreground font-bold uppercase tracking-wider">
-              <Shield className="w-4 h-4 text-support-green" />
-              <span>Pagamento 100% Seguro</span>
+            <div className="flex items-center justify-center gap-1.5 mt-3 text-[11px] text-muted-foreground">
+              <Shield className="w-3.5 h-3.5" />
+              <span>Acesso digital. Use pelo celular, tablet ou imprima em casa.</span>
             </div>
           </div>
         </div>
