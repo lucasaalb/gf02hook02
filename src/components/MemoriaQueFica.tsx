@@ -7,30 +7,29 @@ const MemoriaQueFica = () => (
     <div className="container mx-auto px-4 max-w-4xl relative">
       <div className="text-center mb-12">
         <span className="inline-block bg-accent/10 text-accent font-bold text-xs px-4 py-1.5 rounded-full mb-4 uppercase tracking-widest">
-          TALVEZ VOCÊ JÁ TENHA SENTIDO ISSO
+          VOCÊ TAMBÉM SENTE?
         </span>
         <h2 className="text-3xl md:text-5xl font-heading font-extrabold text-primary-dark mb-6 text-balance leading-[1.1]">
-          A sensação de que a infância dele está passando… <br className="hidden md:block" />
-          <span className="text-accent underline decoration-accent/30 underline-offset-8">e você queria participar mais</span>. 💛
+          Você também sente que ele está crescendo dentro de uma tela?
         </h2>
       </div>
 
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <div className="space-y-6 text-lg text-foreground/80 leading-relaxed">
           <p className="text-xl md:text-2xl font-medium text-primary-dark leading-snug">
-            Às vezes, ninguém percebe. Mas tem avó que sente falta de ser chamada.
+            E que, às vezes, está cada vez mais difícil viver momentos simples com ele.
           </p>
           <p className="bg-primary/5 p-6 rounded-2xl border-l-4 border-primary italic text-primary-dark/90">
-            "Não porque quer controlar ou substituir ninguém. Mas porque ainda existe muito amor querendo participar."
+            "Talvez você não queira tirar tudo dele. Só queira devolver alguns momentos de infância real."
           </p>
         </div>
 
         <div className="grid grid-cols-2 gap-3 sm:gap-4">
           {[
-            { text: "Ensinar com calma", icon: "✍️" },
+            { text: "Mais conversa", icon: "💬" },
             { text: "Sentar junto", icon: "🪑" },
-            { text: "Olhar o caderno", icon: "📖" },
-            { text: "Ajudar o neto", icon: "✨" }
+            { text: "Momentos reais", icon: "✨" },
+            { text: "Participar mais", icon: "❤️" }
           ].map((item, index) => (
             <div 
               key={index} 
@@ -47,7 +46,7 @@ const MemoriaQueFica = () => (
 
       <div className="mt-16 pt-8 border-t border-border/50 text-center">
         <p className="text-xl md:text-3xl font-heading font-extrabold text-primary-dark text-balance italic opacity-90">
-          "Você não passou da fase de ensinar. Talvez só estivesse esperando um jeito simples de participar."
+          "Uma folha na mesa pode parecer pouca coisa. Mas pode virar um momento."
         </p>
       </div>
     </div>
