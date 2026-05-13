@@ -11,7 +11,7 @@ const OQueVoceRecebe = () => (
         <Heart className="w-3.5 h-3.5" /> FOI PARA ISSO QUE O KIT FOI CRIADO
       </span>
       <h2 className="text-2xl md:text-4xl font-heading font-extrabold text-primary-dark mb-5 text-balance">
-        Tem lembranças que começam com uma folha simples na mesa.
+        Foi para criar momentos fora da tela que o Kit Grafismo Fonético foi pensado.
       </h2>
       <img
         src="https://qtbkvshbmqlszncxlcuc.supabase.co/storage/v1/object/public/dsl-uploads/JMNk0ffKBhRUfmaQlPxkiv042B83/87fcd4bc-81a9-46e1-9ce4-380754d13241.png"
@@ -20,15 +20,15 @@ const OQueVoceRecebe = () => (
         loading="lazy"
       />
       <p className="text-base md:text-lg text-foreground/80 leading-relaxed max-w-2xl mx-auto mb-4">
-        O <strong className="text-primary-dark">Kit Grafismo Fonético</strong> reúne atividades prontas, visuais e fáceis de usar para apoiar a criança no desenvolvimento da escrita e dos sons.
+        O <strong className="text-primary-dark">Kit Grafismo Fonético</strong> reúne atividades prontas, visuais e fáceis de usar para transformar aprendizado em presença, sem briga e sem complicação.
       </p>
       <p className="text-base md:text-lg text-foreground/80 leading-relaxed max-w-2xl mx-auto">
-        Ele é um caminho simples para você <strong className="text-primary-dark">sentar junto, incentivar e participar</strong> da infância do seu neto.
+        Ele é um motivo simples para você <strong className="text-primary-dark">chamar seu neto para perto</strong> e mostrar que estar junto é melhor do que qualquer vídeo.
       </p>
 
       <div className="mt-8">
         <Button variant="cta" size="sm" className="w-full sm:w-auto text-[13px] sm:text-sm px-6 py-4 rounded-full shadow-lg text-primary-dark transition-all hover:scale-105" asChild>
-          <a href="#preco" className="whitespace-normal h-auto py-2 leading-[1.2]">Quero começar com meu neto</a>
+          <a href="#preco" className="whitespace-normal h-auto py-2 leading-[1.2]">Quero criar esse momento com ele</a>
         </Button>
       </div>
     </div>
