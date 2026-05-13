@@ -11,11 +11,11 @@ const HeroSection = () => (
       </span>
 
       <h1 className="text-[1.85rem] leading-[1.1] sm:text-4xl lg:text-5xl font-heading font-extrabold text-primary-dark mb-4 text-balance px-1">
-        Ela achava que já tinha passado da fase de ensinar alguém.
+        O celular parece ter roubado a infância.
       </h1>
 
       <p className="text-[0.95rem] sm:text-base lg:text-lg text-foreground/75 mb-8 max-w-xl mx-auto leading-relaxed px-4 italic">
-        "Até perceber que o neto ainda olhava para ela como quem espera ajuda, carinho e presença."
+        Mas ainda dá tempo de chamar seu neto para perto e criar momentos que ele vai sentir de verdade.
       </p>
 
       <div className="relative mb-8 px-2">
@@ -35,10 +35,10 @@ const HeroSection = () => (
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 max-w-md mx-auto mb-6 text-left">
         {[
-          "Atividades simples para fazer junto com a criança",
+          "Atividades simples para chamar a criança para perto",
           "Ajuda nas primeiras letras, sons e coordenação",
-          "Ideal para criar momentos longe do celular",
-          "Um jeito leve de participar do aprendizado do seu neto",
+          "Ideal para criar pausas longe das telas",
+          "Um jeito leve de transformar aprendizado em tempo junto",
         ].map((item) => (
           <span key={item} className="flex items-start gap-2 text-foreground text-xs sm:text-sm font-bold">
             <Check className="w-4 h-4 text-support-green flex-shrink-0 mt-0.5" />
@@ -48,7 +48,7 @@ const HeroSection = () => (
       </div>
 
       <Button variant="cta" size="sm" className="w-full sm:w-auto text-[13px] sm:text-sm px-6 py-4 rounded-full shadow-lg text-primary-dark transition-all hover:scale-105" asChild>
-        <a href="#preco" className="whitespace-normal h-auto py-2 leading-[1.2]">Quero viver esse momento com ele</a>
+        <a href="#preco" className="whitespace-normal h-auto py-2 leading-[1.2]">Quero tirar ele um pouco da tela</a>
       </Button>
 
       <div className="mt-4 flex justify-center">
