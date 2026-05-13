@@ -10,25 +10,25 @@ const MemoriaQueFica = () => (
           VOCÊ TAMBÉM SENTE?
         </span>
         <h2 className="text-3xl md:text-5xl font-heading font-extrabold text-primary-dark mb-6 text-balance leading-[1.1]">
-          Você também sente que ele está crescendo dentro de uma tela?
+          Você também sente que quer ajudar… mas não sabe se está fazendo certo?
         </h2>
       </div>
 
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <div className="space-y-6 text-lg text-foreground/80 leading-relaxed">
           <p className="text-xl md:text-2xl font-medium text-primary-dark leading-snug">
-            E que, às vezes, está cada vez mais difícil viver momentos simples com ele.
+            Cada vez mais avós participam da rotina dos netos. Mas muitas carregam essa dúvida silenciosa.
           </p>
           <p className="bg-primary/5 p-6 rounded-2xl border-l-4 border-primary italic text-primary-dark/90">
-            "Talvez você não queira tirar tudo dele. Só queira devolver alguns momentos de infância real."
+            "Será que ensino do jeito certo? Hoje tudo parece diferente… Queria tanto participar mais…"
           </p>
         </div>
 
         <div className="grid grid-cols-2 gap-3 sm:gap-4">
           {[
-            { text: "Mais conversa", icon: "💬" },
-            { text: "Sentar junto", icon: "🪑" },
-            { text: "Momentos reais", icon: "✨" },
+            { text: "Ensino certo?", icon: "❓" },
+            { text: "Tudo mudou", icon: "🔄" },
+            { text: "Medo de errar", icon: "😰" },
             { text: "Participar mais", icon: "❤️" }
           ].map((item, index) => (
             <div 
@@ -46,7 +46,7 @@ const MemoriaQueFica = () => (
 
       <div className="mt-16 pt-8 border-t border-border/50 text-center">
         <p className="text-xl md:text-3xl font-heading font-extrabold text-primary-dark text-balance italic opacity-90">
-          "Uma folha na mesa pode parecer pouca coisa. Mas pode virar um momento."
+          "Você não está sozinha nisso."
         </p>
       </div>
     </div>
