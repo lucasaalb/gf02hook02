@@ -34,26 +34,26 @@ const PricingSection = () => {
           <div className="bg-destructive/5 border border-destructive/20 rounded-3xl p-6 md:p-8 text-center shadow-sm relative overflow-hidden group hover:border-destructive/40 transition-colors">
             <div className="absolute top-0 left-0 w-full h-1 bg-destructive/20" />
             <p className="text-xl md:text-2xl font-heading font-extrabold text-primary-dark leading-tight">
-              "Talvez ele esteja aprendendo as primeiras letras.<br />
-              Mas você também está construindo uma lembrança."
+              "O celular prende a atenção.<br />
+              Mas a sua presença cria a memória."
             </p>
           </div>
         </div>
         <span className="block text-center text-xs font-extrabold text-primary mb-2 uppercase tracking-wider">
-          COMECE AGORA
+          MENOS TELA, MAIS VÍNCULO
         </span>
         <h2 className="text-2xl md:text-4xl font-heading font-extrabold text-center text-primary-dark mb-3 text-balance">
-          Escolha como quer começar esse momento com seu neto. 💛
+          Escolha como quer começar a criar momentos fora da tela com seu neto. 💛
         </h2>
         <p className="text-center text-muted-foreground mb-10 text-sm md:text-base">
-          Você pode transformar alguns minutos do dia em aprendizado e carinho.
+          Você pode começar de forma simples e transformar alguns minutos do dia em aprendizado, carinho e presença.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-stretch">
           {/* Essencial */}
-          <div className="bg-white rounded-3xl p-6 md:p-8 shadow-sm border border-border/50 flex flex-col hover:shadow-md transition-all animate-pulse">
+          <div className="bg-white rounded-3xl p-6 md:p-8 shadow-sm border border-border/50 flex flex-col hover:shadow-md transition-all">
             <h3 className="text-lg md:text-xl font-heading font-extrabold text-primary-dark mb-1 text-center">Kit Essencial</h3>
-            <p className="text-center text-muted-foreground text-xs md:text-sm mb-6 bg-accent/10 py-1 rounded-full px-4 inline-block mx-auto font-bold text-accent">Simples e prático</p>
+            <p className="text-center text-muted-foreground text-xs md:text-sm mb-6 bg-accent/10 py-1 rounded-full px-4 inline-block mx-auto font-bold text-accent">Para começar agora</p>
 
             <ul className="space-y-3 mb-6 flex-1">
               {[
@@ -82,7 +82,7 @@ const PricingSection = () => {
               className="w-full text-sm sm:text-base py-4 rounded-full border-2 shadow-sm text-primary-dark transition-all hover:scale-105"
               onClick={handleEssencialClick}
             >
-              <span className="whitespace-normal leading-[1.2]">QUERO O PLANO ESSENCIAL →</span>
+              <span className="whitespace-normal leading-[1.2]">QUERO COMEÇAR COM O ESSENCIAL →</span>
             </Button>
           </div>
 
@@ -93,13 +93,12 @@ const PricingSection = () => {
             </div>
 
             <h3 className="text-lg md:text-xl font-heading font-extrabold text-primary-dark mb-1 text-center mt-3">Kit Completo</h3>
-            <p className="text-center text-muted-foreground text-xs md:text-sm mb-5">Tudo para criar uma rotina especial</p>
+            <p className="text-center text-muted-foreground text-xs md:text-sm mb-5">Tudo para criar uma rotina especial longe das telas</p>
 
             <ul className="space-y-3 mb-6 flex-1">
               {[
-                "Atividades de grafismo e alfabetização",
-                "Metodologia exclusiva de coordenação",
-                "Desenvolvimento acelerado de fonética",
+                "Tudo do Kit Essencial",
+                "Mais atividades para variar os dias",
                 "🎁 Bônus: 30 Páginas de Desenhos Bíblicos",
                 "🎁 Bônus: Planner de Rotina com os Netos",
                 "🎁 Bônus: Cartões de Incentivo para imprimir",
@@ -121,12 +120,12 @@ const PricingSection = () => {
             </div>
 
             <Button variant="cta" size="sm" className="w-full text-sm sm:text-base py-4 rounded-full shadow-lg text-primary-dark transition-all hover:scale-105" asChild>
-              <a href={COMPLETO_URL} className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO O KIT COMPLETO →</a>
+              <a href={COMPLETO_URL} className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO O KIT COMPLETO PARA USAR COM ELE →</a>
             </Button>
 
             <div className="flex items-center justify-center gap-1.5 mt-3 text-[11px] text-muted-foreground">
               <Shield className="w-3.5 h-3.5" />
-              <span>Acesso digital imediato pelo celular ou tablet</span>
+              <span>Acesso digital. Use pelo celular, tablet ou imprima em casa.</span>
             </div>
           </div>
         </div>
