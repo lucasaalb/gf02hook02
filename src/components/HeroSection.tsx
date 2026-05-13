@@ -15,7 +15,11 @@ const HeroSection = () => (
       </h1>
 
       <p className="text-[0.95rem] sm:text-base lg:text-lg text-foreground/75 mb-8 max-w-xl mx-auto leading-relaxed px-4 italic">
-        Muitas avós querem participar das tarefas, sentar ao lado, ensinar as primeiras letras… Mas travam por dentro pensando: "E se eu confundir mais do que ajudar?" Foi por isso que criamos um material simples, leve e fácil de usar… para você ensinar com carinho, sem insegurança e no seu tempo.
+        Muitas avós querem participar das tarefas, sentar ao lado, ensinar as primeiras letras…
+        <br className="sm:hidden" />
+        Mas travam pensando: "E se eu confundir mais do que ajudar?"
+        <br />
+        Criamos um material simples para você ensinar com carinho e segurança.
       </p>
 
       <div className="relative mb-8 px-2">
