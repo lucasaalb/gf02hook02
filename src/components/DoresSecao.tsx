@@ -1,9 +1,9 @@
 const dores = [
-  { text: "Ele acorda e já pede o celular", icon: "📱", color: "bg-orange-50 text-orange-600" },
-  { text: "Ele diz “só mais um pouquinho”", icon: "⏳", color: "bg-blue-50 text-blue-600" },
-  { text: "Ele perde a paciência longe da tela", icon: "🤯", color: "bg-purple-50 text-purple-600" },
-  { text: "Ele não se interessa por coisas simples", icon: "🎨", color: "bg-rose-50 text-rose-600" },
-  { text: "Você sente falta de participar", icon: "😢", color: "bg-emerald-50 text-emerald-600" },
+  { text: "Ele troca letras", icon: "🅰️", color: "bg-orange-50 text-orange-600" },
+  { text: "Desiste muito rápido", icon: "😫", color: "bg-blue-50 text-blue-600" },
+  { text: "Perde a paciência", icon: "🤯", color: "bg-purple-50 text-purple-600" },
+  { text: "Você trava com medo", icon: "😰", color: "bg-rose-50 text-rose-600" },
+  { text: "Queria saber como ajudar", icon: "👵", color: "bg-emerald-50 text-emerald-600" },
 ];
 
 const DoresSecao = () => (
@@ -11,11 +11,11 @@ const DoresSecao = () => (
     <div className="container mx-auto px-4 max-w-4xl">
       <div className="text-center mb-12">
         <span className="inline-block bg-destructive/10 text-destructive font-bold text-xs px-4 py-1.5 rounded-full mb-4 uppercase tracking-widest">
-          MOMENTOS QUE DOEM
+          O QUE MACHUCA
         </span>
         <h2 className="text-3xl md:text-5xl font-heading font-extrabold text-primary-dark mb-6 text-balance leading-[1.1]">
-          Sabe aqueles momentos que parecem pequenos, <br className="hidden md:block" />
-          mas <span className="text-destructive underline decoration-destructive/20 underline-offset-8">ocupam o lugar da conversa</span>?
+          Sabe o que machuca mais? <br className="hidden md:block" />
+          Não é não saber. É <span className="text-destructive underline decoration-destructive/20 underline-offset-8">querer ajudar e travar</span>.
         </h2>
       </div>
 
@@ -50,13 +50,13 @@ const DoresSecao = () => (
       
       <div className="mt-16 text-center space-y-4 max-w-2xl mx-auto">
         <h3 className="text-2xl md:text-3xl font-heading font-extrabold text-primary-dark leading-tight">
-          Às vezes, não é sobre tirar o celular.
+          Você vê a criança com dificuldade.
         </h3>
         <p className="text-foreground/80 text-lg md:text-xl leading-relaxed">
-          É sobre oferecer um momento melhor.
+          E no fundo pensa: “Se eu soubesse como ajudar…”
         </p>
         <p className="text-primary font-bold italic text-lg pt-2">
-          A infância dele não precisa ser feita só de vídeos. Ela também pode ser feita de lembranças com você.
+          Muitas avós sentem isso e ficam caladas.
         </p>
       </div>
     </div>

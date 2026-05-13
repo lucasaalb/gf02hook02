@@ -8,10 +8,10 @@ const OQueVoceRecebe = () => (
 
     <div className="container mx-auto px-4 max-w-3xl relative text-center">
       <span className="inline-flex items-center gap-2 bg-accent/30 text-primary-dark text-xs font-extrabold px-4 py-1.5 rounded-full mb-4 border border-accent uppercase tracking-wider">
-        <Heart className="w-3.5 h-3.5" /> FOI PARA ISSO QUE O KIT FOI CRIADO
+        <Heart className="w-3.5 h-3.5" /> FOI PRA TIRAR ESSE PESO QUE CRIAMOS
       </span>
       <h2 className="text-2xl md:text-4xl font-heading font-extrabold text-primary-dark mb-5 text-balance">
-        Foi para criar momentos fora da tela que o Kit Grafismo Fonético foi pensado.
+        Foi pra tirar esse peso que criamos um jeito simples de ensinar em casa.
       </h2>
       <img
         src="https://qtbkvshbmqlszncxlcuc.supabase.co/storage/v1/object/public/dsl-uploads/JMNk0ffKBhRUfmaQlPxkiv042B83/87fcd4bc-81a9-46e1-9ce4-380754d13241.png"
@@ -20,15 +20,15 @@ const OQueVoceRecebe = () => (
         loading="lazy"
       />
       <p className="text-base md:text-lg text-foreground/80 leading-relaxed max-w-2xl mx-auto mb-4">
-        O <strong className="text-primary-dark">Kit Grafismo Fonético</strong> reúne atividades prontas, visuais e fáceis de usar para transformar aprendizado em presença, sem briga e sem complicação.
+        O <strong className="text-primary-dark">Kit Grafismo Fonético</strong> foi pensado para quem quer ajudar a criança a aprender… Mesmo sem ser professora. Mesmo sem entender métodos modernos.
       </p>
       <p className="text-base md:text-lg text-foreground/80 leading-relaxed max-w-2xl mx-auto">
-        Ele é um motivo simples para você <strong className="text-primary-dark">chamar seu neto para perto</strong> e mostrar que estar junto é melhor do que qualquer vídeo.
+        Mesmo achando que esqueceu como ensinar. Você só imprime, senta com ele e segue atividades <strong className="text-primary-dark">simples e carinhosas</strong>.
       </p>
 
       <div className="mt-8">
         <Button variant="cta" size="sm" className="w-full sm:w-auto text-[13px] sm:text-sm px-6 py-4 rounded-full shadow-lg text-primary-dark transition-all hover:scale-105" asChild>
-          <a href="#preco" className="whitespace-normal h-auto py-2 leading-[1.2]">Quero criar esse momento com ele</a>
+          <a href="#preco" className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO VER COMO FUNCIONA</a>
         </Button>
       </div>
     </div>

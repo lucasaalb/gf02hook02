@@ -22,10 +22,10 @@ const TestimonialsSection = () => {
           HISTÓRIAS REAIS
         </span>
         <h2 className="text-2xl md:text-4xl font-heading font-extrabold text-center text-primary-dark mb-3 text-balance">
-          Avós que conseguiram chamar os netos para perto 💬
+          Avós que também tinham medo… e hoje participam muito mais. 💬
         </h2>
         <p className="text-center text-muted-foreground mb-8 max-w-xl mx-auto text-sm md:text-base">
-          Muitas começam achando que a criança não teria paciência, mas depois percebem que, quando existe alguém sentado ao lado, a atividade fica mais leve.
+          Elas também achavam que não conseguiriam ajudar, mas hoje vivem momentos emocionantes de aprendizado com os netos.
         </p>
 
         <div className="relative">
@@ -68,7 +68,7 @@ const TestimonialsSection = () => {
 
         <div className="mt-12 text-center max-w-2xl mx-auto">
           <p className="text-xl md:text-2xl font-medium italic text-primary-dark/80 leading-relaxed">
-            “Ele largou o celular por um tempo e sentou comigo. Foi simples, mas pra mim significou muito.”
+            “Eu tinha receio de ensinar errado. Hoje ele senta comigo todo dia e foi emocionante ver ele lendo comigo.”
           </p>
         </div>
 
