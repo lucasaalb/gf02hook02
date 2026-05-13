@@ -7,15 +7,15 @@ const HeroSection = () => (
   <section className="relative overflow-hidden pt-8 pb-12 md:py-16 bg-gradient-to-b from-secondary/40 via-background to-background">
     <div className="container mx-auto px-4 max-w-3xl text-center">
       <span className="inline-block bg-[hsl(var(--price-badge))]/40 text-primary-dark font-extrabold text-[11px] sm:text-xs px-4 py-1.5 rounded-full mb-5 border border-[hsl(var(--price-badge))]/60">
-        ✨ Para avós que querem participar do aprendizado do neto
+        ✨ Para avós que querem participar com segurança
       </span>
 
       <h1 className="text-[1.85rem] leading-[1.1] sm:text-4xl lg:text-5xl font-heading font-extrabold text-primary-dark mb-4 text-balance px-1">
-        O celular parece ter roubado a infância.
+        Ela queria ajudar o neto a ler… mas tinha medo de ensinar errado.
       </h1>
 
       <p className="text-[0.95rem] sm:text-base lg:text-lg text-foreground/75 mb-8 max-w-xl mx-auto leading-relaxed px-4 italic">
-        Mas ainda dá tempo de chamar seu neto para perto e criar momentos que ele vai sentir de verdade.
+        Muitas avós querem participar das tarefas, sentar ao lado, ensinar as primeiras letras… Mas travam por dentro pensando: "E se eu confundir mais do que ajudar?" Foi por isso que criamos um material simples, leve e fácil de usar… para você ensinar com carinho, sem insegurança e no seu tempo.
       </p>
 
       <div className="relative mb-8 px-2">
@@ -35,10 +35,10 @@ const HeroSection = () => (
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 max-w-md mx-auto mb-6 text-left">
         {[
-          "Atividades simples para chamar a criança para perto",
-          "Ajuda nas primeiras letras, sons e coordenação",
-          "Ideal para criar pausas longe das telas",
-          "Um jeito leve de transformar aprendizado em tempo junto",
+          "Ensinar de forma simples",
+          "Participar da rotina escolar dele",
+          "Criar tempo longe do celular",
+          "Ajudar sem insegurança",
         ].map((item) => (
           <span key={item} className="flex items-start gap-2 text-foreground text-xs sm:text-sm font-bold">
             <Check className="w-4 h-4 text-support-green flex-shrink-0 mt-0.5" />
@@ -48,13 +48,13 @@ const HeroSection = () => (
       </div>
 
       <Button variant="cta" size="sm" className="w-full sm:w-auto text-[13px] sm:text-sm px-6 py-4 rounded-full shadow-lg text-primary-dark transition-all hover:scale-105" asChild>
-        <a href="#preco" className="whitespace-normal h-auto py-2 leading-[1.2]">Quero tirar ele um pouco da tela</a>
+        <a href="#preco" className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO AJUDAR MEU NETO COM SEGURANÇA</a>
       </Button>
 
       <div className="mt-4 flex justify-center">
         <span className="inline-flex items-center gap-2 bg-support-green/15 text-primary-dark px-4 py-2 rounded-full text-xs sm:text-sm font-bold whitespace-nowrap">
           <MessageCircle className="w-4 h-4 text-support-green" />
-          Acesso simples pelo celular ou para imprimir em casa.
+          Acesso imediato para imprimir ou usar no celular.
         </span>
       </div>
     </div>
