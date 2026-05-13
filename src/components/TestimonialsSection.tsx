@@ -22,10 +22,10 @@ const TestimonialsSection = () => {
           HISTÓRIAS REAIS
         </span>
         <h2 className="text-2xl md:text-4xl font-heading font-extrabold text-center text-primary-dark mb-3 text-balance">
-          Avós que voltaram a se sentir parte desse momento 💬
+          Avós que conseguiram chamar os netos para perto 💬
         </h2>
         <p className="text-center text-muted-foreground mb-8 max-w-xl mx-auto text-sm md:text-base">
-          Muitas começam achando que não vão saber conduzir, mas depois percebem que a criança só precisava de alguém sentado ao lado.
+          Muitas começam achando que a criança não teria paciência, mas depois percebem que, quando existe alguém sentado ao lado, a atividade fica mais leve.
         </p>
 
         <div className="relative">
