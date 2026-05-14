@@ -5,7 +5,7 @@ const FooterSection = () => (
     <div className="container mx-auto max-w-5xl">
       <div className="text-center mb-16 max-w-2xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-heading font-extrabold text-white mb-6">
-          A infância dele não precisa acontecer só dentro de uma tela.
+          Você pode criar um momento real.
         </h2>
         <p className="text-white/80 text-lg mb-8">
           Talvez você não consiga tirar o celular para sempre. E nem precisa. Mas pode criar um momento real, com um lápis, um papel e a sua presença ao lado dele.

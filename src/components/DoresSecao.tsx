@@ -55,9 +55,6 @@ const DoresSecao = () => (
         <p className="text-foreground/80 text-lg md:text-xl leading-relaxed">
           É sobre oferecer um momento melhor.
         </p>
-        <p className="text-primary font-bold italic text-lg pt-2">
-          A infância dele não precisa ser feita só de vídeos. Ela também pode ser feita de lembranças com você.
-        </p>
       </div>
     </div>
   </section>
