@@ -37,25 +37,25 @@ const PricingSection = () => {
           <div className="bg-destructive/5 border border-destructive/20 rounded-3xl p-6 md:p-8 text-center shadow-sm relative overflow-hidden group hover:border-destructive/40 transition-colors">
             <div className="absolute top-0 left-0 w-full h-1 bg-destructive/20" />
             <p className="text-xl md:text-2xl font-heading font-extrabold text-primary-dark leading-tight">
-              "Porque a infância passa rápido. Daqui a pouco ele cresce. As fases mudam. Os interesses mudam. Mas o tempo que vocês vivem agora… ninguém devolve depois."
+              "Você pode começar de forma simples e transformar alguns minutos do dia em aprendizado, carinho e presença."
             </p>
           </div>
         </div>
         <span className="block text-center text-xs font-extrabold text-primary mb-2 uppercase tracking-wider">
-          O FUTURO DELE COMEÇA HOJE
+          ESCOLHA COMO COMEÇAR
         </span>
         <h2 className="text-2xl md:text-4xl font-heading font-extrabold text-center text-primary-dark mb-3 text-balance">
-          Escolha começar hoje.
+          Escolha como quer começar a ajudar seu neto com mais segurança.
         </h2>
         <p className="text-center text-muted-foreground mb-10 text-sm md:text-base">
-          Porque a infância passa rápido e o tempo que vivem agora não volta.
+          Acesso digital. Você pode usar pelo celular, tablet ou imprimir em casa.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-stretch">
           {/* Essencial */}
           <div className="bg-white rounded-3xl p-6 md:p-8 shadow-sm border border-border/50 flex flex-col hover:shadow-md transition-all">
             <h3 className="text-lg md:text-xl font-heading font-extrabold text-primary-dark mb-1 text-center">Kit Essencial</h3>
-            <p className="text-center text-muted-foreground text-xs md:text-sm mb-6 bg-accent/10 py-1 rounded-full px-4 inline-block mx-auto font-bold text-accent">Para começar agora</p>
+            <p className="text-center text-muted-foreground text-xs md:text-sm mb-6 bg-accent/10 py-1 rounded-full px-4 inline-block mx-auto font-bold text-accent">Para começar com o básico</p>
 
             <ul className="space-y-3 mb-6 flex-1">
               {[
@@ -95,18 +95,18 @@ const PricingSection = () => {
             </div>
 
             <h3 className="text-lg md:text-xl font-heading font-extrabold text-primary-dark mb-1 text-center mt-3">Kit Completo</h3>
-            <p className="text-center text-muted-foreground text-xs md:text-sm mb-5">Tudo para criar uma rotina especial longe das telas</p>
+            <p className="text-center text-muted-foreground text-xs md:text-sm mb-5">Mais opções para se sentir mais preparada para ajudar</p>
 
             <ul className="space-y-3 mb-6 flex-1">
               {[
                 "Tudo do Kit Essencial",
                 "Mais atividades para variar os dias",
                 "🎁 Bônus: Atividades Extras",
-                "🎁 Bônus: Páginas para Imprimir",
-                "🎁 Bônus: Momentos de Leveza",
-                "Acesso Vitalício (pague uma vez só)",
+                "🎁 Bônus: Mais páginas para imprimir",
+                "🎁 Bônus: Material visual extra",
+                "Acesso vitalício (pague uma vez só)",
                 "Suporte prioritário via WhatsApp",
-                "Garantia Incondicional de 7 dias",
+                "Garantia de 7 dias",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-2 text-foreground text-sm font-semibold">
                   <Check className="w-4 h-4 text-support-green mt-0.5 flex-shrink-0" /> {item}
@@ -122,7 +122,7 @@ const PricingSection = () => {
             </div>
 
             <Button variant="cta" size="sm" className="w-full text-sm sm:text-base py-4 rounded-full shadow-lg text-primary-dark transition-all hover:scale-105" asChild>
-              <a href={COMPLETO_URL} onClick={trackLead} className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO O KIT COMPLETO →</a>
+              <a href={COMPLETO_URL} onClick={trackLead} className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO O KIT COMPLETO PARA USAR COM ELE →</a>
             </Button>
 
             <div className="flex items-center justify-center gap-1.5 mt-3 text-[11px] text-muted-foreground">
