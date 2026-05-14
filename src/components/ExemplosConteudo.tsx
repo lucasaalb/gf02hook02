@@ -9,19 +9,19 @@ import exGrafismo from "@/assets/exemplo-grafismo.webp";
 import exFormacao from "@/assets/exemplo-formacao-palavras.webp";
 
 const examples = [
-  { src: ex1, label: "Grafismo e Coordenação" },
-  { src: ex2, label: "Letras e Fonemas" },
-  { src: ex3, label: "Formação de Palavras" },
-  { src: exFonologica, label: "Sons e Imagens" },
-  { src: exGrafismo, label: "Coordenação Motora" },
-  { src: exFormacao, label: "Letras e Associações" },
+  { src: ex1, label: "Grafismo e coordenação" },
+  { src: ex2, label: "Letras, sons e imagens" },
+  { src: ex3, label: "Atividades de associação" },
+  { src: exFonologica, label: "Sons e imagens" },
+  { src: exGrafismo, label: "Coordenação motora" },
+  { src: exFormacao, label: "Material pronto para usar" },
 ];
 
 const cards = [
-  { icon: UserPlus, text: "Conexão", color: "text-rose-500", bg: "bg-rose-50/50" },
-  { icon: Clock, text: "Presença", color: "text-amber-500", bg: "bg-amber-50/50" },
-  { icon: Gift, text: "Confiança", color: "text-emerald-500", bg: "bg-emerald-50/50" },
-  { icon: BookOpen, text: "Diferença", color: "text-sky-500", bg: "bg-sky-50/50" },
+  { icon: UserPlus, text: "Tenta junto", color: "text-rose-500", bg: "bg-rose-50/50" },
+  { icon: Clock, text: "Acolhe", color: "text-amber-500", bg: "bg-amber-50/50" },
+  { icon: Gift, text: "Ganha confiança", color: "text-emerald-500", bg: "bg-emerald-50/50" },
+  { icon: BookOpen, text: "Fica presente", color: "text-sky-500", bg: "bg-sky-50/50" },
 ];
 
 const ExemplosConteudo = () => {
@@ -39,22 +39,22 @@ const ExemplosConteudo = () => {
         {/* Parte: O que a avó se torna */}
         <div className="text-center mb-12 max-w-3xl mx-auto animate-fade-in">
           <span className="inline-block text-[10px] md:text-xs font-black text-primary/60 mb-6 uppercase tracking-[0.2em] bg-primary/5 px-4 py-1.5 rounded-full">
-            SEU PAPEL É ÚNICO
+            O QUE A AVÓ SE TORNA
           </span>
           <h2 className="text-3xl md:text-5xl font-heading font-extrabold text-primary-dark mb-8 leading-[1.15] text-balance">
-            Feito para quem achou que não acompanhava mais… <span className="text-primary block md:inline mt-2 md:mt-0">mas ainda tem muito para oferecer.</span>
+            Você não precisa ser professora. <span className="text-primary block md:inline mt-2 md:mt-0">Você pode ser a avó que ele lembra com carinho.</span>
           </h2>
           
           <div className="space-y-8 text-lg md:text-xl text-foreground/70 leading-relaxed max-w-2xl mx-auto">
-            <p>✔ fortalece a conexão entre vocês</p>
-            <p>✔ ajuda no começo da leitura</p>
-            <p>✔ tira ele da tela por alguns minutos</p>
-            <p>✔ cria momentos juntos</p>
-            <p>✔ devolve sua confiança</p>
-            <p>✔ mostra que você ainda faz diferença</p>
+            <p>✔ você ganha mais segurança</p>
+            <p>✔ ele se sente acompanhado</p>
+            <p>✔ o erro fica mais leve</p>
+            <p>✔ a rotina fica mais simples</p>
+            <p>✔ o aprendizado vira vínculo</p>
+            <p>✔ você participa sem medo</p>
             
             <div className="py-4">
-              <p className="font-medium text-primary-dark/70 mb-8 italic">Você continua sendo insubstituível para ele:</p>
+              <p className="font-medium text-primary-dark/70 mb-8 italic">No fundo, não é sobre ensinar perfeito. É sobre ele sentir que não está sozinho:</p>
               
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
                 {cards.map((item) => (
@@ -72,8 +72,8 @@ const ExemplosConteudo = () => {
             </div>
 
             <div className="pt-2 space-y-4">
-              <p>Uma pausa simples para ele olhar para você e para o papel.</p>
-              <p className="font-heading font-extrabold text-primary-dark text-2xl">Só presença.</p>
+              <p>Talvez você tenha aprendido de outro jeito. E tudo bem.</p>
+              <p className="font-heading font-extrabold text-primary-dark text-2xl">Carinho também ensina.</p>
             </div>
           </div>
         </div>
@@ -82,7 +82,7 @@ const ExemplosConteudo = () => {
         <div className="py-8 md:py-12 flex justify-center">
           <div className="max-w-2xl w-full text-center px-6">
             <p className="text-xl md:text-2xl font-medium italic text-primary-dark/80 leading-relaxed">
-              "Basta criar um momento que seja de vocês. Sem pressão. Sem briga. Só vocês dois."
+              "Você não precisa substituir a escola. Não precisa corrigir tudo. Você só precisa criar um momento de prática, atenção e carinho."
             </p>
           </div>
         </div>
@@ -91,10 +91,10 @@ const ExemplosConteudo = () => {
         <div className="mb-16 animate-fade-in pt-8">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-5xl font-heading font-extrabold text-primary-dark mb-6 leading-tight">
-              Simples pra você usar. <span className="text-primary italic">Importante pra vida dele.</span>
+              Um jeito simples de ajudar, <span className="text-primary italic">mesmo sem saber por onde começar.</span>
             </h2>
             <p className="text-lg md:text-xl text-foreground/60 max-w-2xl mx-auto leading-relaxed">
-              Você não precisa entender tecnologia. Só precisa estar presente.
+              Atividades prontas para usar em casa, no ritmo de vocês.
             </p>
           </div>
         </div>
@@ -145,13 +145,13 @@ const ExemplosConteudo = () => {
         <div className="mt-20 md:mt-24 text-center">
           <div className="inline-block p-1 bg-primary/5 rounded-[2.5rem] mb-6">
              <p className="font-heading font-extrabold text-primary-dark text-lg md:text-xl px-8 py-2">
-              Cada atividade pode ser um pequeno encontro entre vocês.
+              Você escolhe uma página. Chama a criança. Senta junto. E acompanha.
             </p>
           </div>
           <br />
           <Button variant="cta" size="sm" className="w-full sm:w-auto text-base px-8 py-6 rounded-full shadow-lg hover:scale-105 transition-transform" asChild>
             <a href="#preco" className="whitespace-normal h-auto py-2 leading-tight flex items-center gap-3">
-              <span>QUERO RECEBER AGORA</span>
+              <span>QUERO AJUDAR SEM COMPLICAR</span>
               <ChevronRight className="w-5 h-5" />
             </a>
           </Button>
@@ -162,11 +162,11 @@ const ExemplosConteudo = () => {
             </div>
             <div className="flex items-center gap-2">
               <Check className="w-4 h-4 text-support-green" />
-              <span>Leve e sem complicação</span>
+              <span>Sem termos difíceis</span>
             </div>
             <div className="flex items-center gap-2">
               <Check className="w-4 h-4 text-support-green" />
-              <span>Vínculo e carinho</span>
+              <span>No ritmo de vocês</span>
             </div>
           </div>
         </div>

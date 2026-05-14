@@ -1,10 +1,14 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const faqs = [
-  { q: "Preciso saber mexer em tecnologia?", a: "Não. Tudo foi pensado para ser simples e direto, sem complicações digitais." },
-  { q: "Serve mesmo se eu estiver enferrujada?", a: "Sim. Justamente para quem sente isso. O material te guia passo a passo." },
-  { q: "Precisa muito tempo?", a: "Não. Alguns minutos por dia já ajudam muito no desenvolvimento dele." },
-  { q: "Serve para qual fase?", a: "Principalmente para crianças no começo da leitura." },
+  { q: "Eu preciso saber ensinar para usar o material?", a: "Não. O material foi pensado para ser simples e visual. Você escolhe a atividade, senta com a criança e acompanha. O mais importante é estar presente." },
+  { q: "E se eu tiver medo de ensinar errado?", a: "Tudo bem. Esse medo é comum. O material existe justamente para te dar um caminho simples, com atividades prontas, para você ajudar sem precisar improvisar tudo." },
+  { q: "Serve para avó usar com o neto em casa?", a: "Sim. Ele foi pensado para momentos simples em casa, sem precisar montar aula ou seguir algo complicado." },
+  { q: "E se a criança tiver pouca paciência?", a: "Comece com poucos minutos. Uma página, uma tentativa, um pequeno momento. O objetivo é ser leve, não cansativo." },
+  { q: "Preciso imprimir tudo?", a: "Não. Você pode escolher algumas páginas, imprimir aos poucos e usar conforme a rotina de vocês." },
+  { q: "Esse material substitui a escola?", a: "Não. Ele é um apoio para praticar em casa e para a família participar mais desse momento de aprendizado." },
+  { q: "Funciona mesmo se eu não tiver experiência?", a: "Sim. A proposta é justamente facilitar para quem quer ajudar, mas não sabe por onde começar." },
+  { q: "Por quanto tempo terei acesso?", a: "Você recebe acesso ao material digital e pode usar conforme as informações da página de compra." },
 ];
 
 const FAQSection = () => (

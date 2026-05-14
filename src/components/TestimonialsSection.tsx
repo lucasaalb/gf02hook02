@@ -22,10 +22,10 @@ const TestimonialsSection = () => {
           HISTÓRIAS REAIS
         </span>
         <h2 className="text-2xl md:text-4xl font-heading font-extrabold text-center text-primary-dark mb-3 text-balance">
-          Avós que achavam que tinham ficado pra trás… e hoje participam muito mais.
+          Avós que perderam o medo de ajudar.
         </h2>
         <p className="text-center text-muted-foreground mb-8 max-w-xl mx-auto text-sm md:text-base">
-          Criado para valorizar quem sempre esteve presente e faz muito.
+          Pequenos momentos que mostraram que presença também ensina.
         </p>
 
         <div className="relative">
@@ -68,13 +68,13 @@ const TestimonialsSection = () => {
 
         <div className="mt-12 text-center max-w-2xl mx-auto">
           <p className="text-xl md:text-2xl font-medium italic text-primary-dark/80 leading-relaxed">
-            “Eu achava que não conseguia acompanhar mais nada. Hoje ele aprende comigo.”
+            “Eu tinha medo de ensinar errado. Mas quando sentei com ele, vi que o mais importante era estar ali.”
           </p>
         </div>
 
         <div className="mt-4 text-center max-w-2xl mx-auto">
           <p className="text-lg md:text-xl font-medium italic text-primary-dark/80 leading-relaxed">
-            “Me sentia ultrapassada. Agora ele me chama pra sentar do lado. Percebi que criança precisa mais da gente do que da tela.”
+            “Comecei achando que não saberia conduzir. Depois percebi que ele não precisava de uma explicação perfeita. Precisava de mim ali, tentando junto.”
           </p>
         </div>
 

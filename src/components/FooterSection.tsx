@@ -5,19 +5,19 @@ const FooterSection = () => (
     <div className="container mx-auto max-w-5xl">
       <div className="text-center mb-16 max-w-2xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-heading font-extrabold text-white mb-6">
-          Você não ficou pra trás.
+          Você não precisa ensinar perfeito para ser importante.
         </h2>
         <p className="text-white/80 text-lg mb-8">
-          Talvez o mundo tenha mudado. Mas criança continua precisando de carinho. De atenção. De alguém ao lado. E nisso… você ainda é essencial.
+          Talvez você ainda sinta medo de explicar errado, de confundir, de não saber como começar. Mas talvez seu neto não esteja esperando perfeição. Talvez ele só precise de você ali. Uma folha na mesa. Um lápis na mão. Você sentada ao lado, dizendo: "isso, vai com calma… você consegue."
         </p>
         <div className="space-y-4">
           <a 
             href="#preco" 
             className="inline-block w-full sm:w-auto bg-accent text-primary-dark font-extrabold px-8 py-4 rounded-full shadow-lg hover:scale-105 transition-transform"
           >
-            QUERO PARTICIPAR MAIS DESSA FASE
+            QUERO AJUDAR MEU NETO SEM MEDO
           </a>
-          <p className="text-white/60 text-xs">Para valorizar quem sempre esteve presente.</p>
+          <p className="text-white/60 text-xs">Para apoiar as primeiras letras com carinho, segurança e presença.</p>
         </div>
       </div>
 
@@ -29,7 +29,7 @@ const FooterSection = () => (
           <p className="font-heading font-extrabold text-sm mb-2 text-white/90">
             Kit Grafismo Fonético
           </p>
-          <p className="text-white/70 text-xs">Transformando aprendizado em conexão.</p>
+          <p className="text-white/70 text-xs">Ajudar sem medo. Participar com presença.</p>
         </div>
 
         <div className="flex justify-center gap-3">
