@@ -8,6 +8,7 @@ import {
   DialogTitle,
   DialogDescription,
 } from "@/components/ui/dialog";
+import { trackLead } from "@/utils/utmify";
 
 const COMPLETO_URL = "https://ggcheckout.app/checkout/v2/42XeRTtQSIfeRRDs24CJ";
 const ESSENCIAL_URL = "https://ggcheckout.app/checkout/v2/OEwZ3gqKmwq1XzMSgDeN";
@@ -19,11 +20,13 @@ const PricingSection = () => {
 
   const handleEssencialClick = (e: React.MouseEvent) => {
     e.preventDefault();
+    trackLead();
     setShowDiscountModal(true);
   };
 
   const continuarPlanoBasico = () => {
     setShowDiscountModal(false);
+    trackLead();
     window.location.href = ESSENCIAL_URL;
   };
 
@@ -120,7 +123,7 @@ const PricingSection = () => {
             </div>
 
             <Button variant="cta" size="sm" className="w-full text-sm sm:text-base py-4 rounded-full shadow-lg text-primary-dark transition-all hover:scale-105" asChild>
-              <a href={COMPLETO_URL} className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO O KIT COMPLETO →</a>
+              <a href={COMPLETO_URL} onClick={trackLead} className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO O KIT COMPLETO →</a>
             </Button>
 
             <div className="flex items-center justify-center gap-1.5 mt-3 text-[11px] text-muted-foreground">
@@ -192,7 +195,7 @@ const PricingSection = () => {
               className="w-full text-sm sm:text-base py-4 mb-2 rounded-full shadow-lg text-primary-dark transition-all hover:scale-105"
               asChild
             >
-              <a href={COMPLETO_DESCONTO_URL} className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO COM DESCONTO →</a>
+              <a href={COMPLETO_DESCONTO_URL} onClick={trackLead} className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO COM DESCONTO →</a>
             </Button>
 
             <button
