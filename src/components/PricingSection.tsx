@@ -195,7 +195,7 @@ const PricingSection = () => {
               className="w-full text-sm sm:text-base py-4 mb-2 rounded-full shadow-lg text-primary-dark transition-all hover:scale-105"
               asChild
             >
-              <a href={COMPLETO_DESCONTO_URL} className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO COM DESCONTO →</a>
+              <a href={COMPLETO_DESCONTO_URL} onClick={trackLead} className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO COM DESCONTO →</a>
             </Button>
 
             <button
