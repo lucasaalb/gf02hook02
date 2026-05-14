@@ -46,10 +46,15 @@ const ExemplosConteudo = () => {
           </h2>
           
           <div className="space-y-8 text-lg md:text-xl text-foreground/70 leading-relaxed max-w-2xl mx-auto">
-            <p>Enquanto tanta coisa tenta chamar a atenção dele, você ainda pode chamar ele para perto.</p>
+            <p>✔ fortalece a conexão entre vocês</p>
+            <p>✔ ajuda no começo da leitura</p>
+            <p>✔ tira ele da tela por alguns minutos</p>
+            <p>✔ cria momentos juntos</p>
+            <p>✔ devolve sua confiança</p>
+            <p>✔ mostra que você ainda faz diferença</p>
             
             <div className="py-4">
-              <p className="font-medium text-primary-dark/70 mb-8 italic">No fundo, o que ele sente é que tem você por perto:</p>
+              <p className="font-medium text-primary-dark/70 mb-8 italic">Você continua sendo insubstituível para ele:</p>
               
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
                 {cards.map((item) => (
@@ -89,7 +94,7 @@ const ExemplosConteudo = () => {
               Simples pra você usar. <span className="text-primary italic">Importante pra vida dele.</span>
             </h2>
             <p className="text-lg md:text-xl text-foreground/60 max-w-2xl mx-auto leading-relaxed">
-              Atividades prontas para usar em casa, sem complicação e sem pressa.
+              Você não precisa entender tecnologia. Só precisa estar presente.
             </p>
           </div>
         </div>
