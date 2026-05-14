@@ -37,8 +37,7 @@ const PricingSection = () => {
           <div className="bg-destructive/5 border border-destructive/20 rounded-3xl p-6 md:p-8 text-center shadow-sm relative overflow-hidden group hover:border-destructive/40 transition-colors">
             <div className="absolute top-0 left-0 w-full h-1 bg-destructive/20" />
             <p className="text-xl md:text-2xl font-heading font-extrabold text-primary-dark leading-tight">
-              "O celular prende a atenção.<br />
-              Mas a sua presença cria a memória."
+              "O tempo passa. Daqui a pouco ele cresce. A rotina muda. Mas o que você constrói agora… pode ficar pra sempre."
             </p>
           </div>
         </div>
