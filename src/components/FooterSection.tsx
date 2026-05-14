@@ -5,19 +5,19 @@ const FooterSection = () => (
     <div className="container mx-auto max-w-5xl">
       <div className="text-center mb-16 max-w-2xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-heading font-extrabold text-white mb-6">
-          Você pode criar um momento real.
+          Tem avó sustentando a infância de muita criança.
         </h2>
         <p className="text-white/80 text-lg mb-8">
-          Talvez você não consiga tirar o celular para sempre. E nem precisa. Mas pode criar um momento real, com um lápis, um papel e a sua presença ao lado dele.
+          E talvez ninguém fale disso. Mas ele vai lembrar. De quem cuidou. De quem ensinou. De quem esteve ali.
         </p>
         <div className="space-y-4">
           <a 
             href="#preco" 
             className="inline-block w-full sm:w-auto bg-accent text-primary-dark font-extrabold px-8 py-4 rounded-full shadow-lg hover:scale-105 transition-transform"
           >
-            QUERO CRIAR ESSE MOMENTO COM MEU NETO
+            QUERO PARTICIPAR AINDA MAIS DESSA FASE
           </a>
-          <p className="text-white/60 text-xs">Para ajudar nas primeiras letras e devolver alguns minutos de infância real.</p>
+          <p className="text-white/60 text-xs">Para valorizar quem sempre esteve presente.</p>
         </div>
       </div>
 

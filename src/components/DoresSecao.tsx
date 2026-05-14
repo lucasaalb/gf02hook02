@@ -1,9 +1,9 @@
 const dores = [
-  { text: "Ele acorda e já pede o celular", icon: "📱", color: "bg-orange-50 text-orange-600" },
-  { text: "Ele diz “só mais um pouquinho”", icon: "⏳", color: "bg-blue-50 text-blue-600" },
-  { text: "Ele perde a paciência longe da tela", icon: "🤯", color: "bg-purple-50 text-purple-600" },
-  { text: "Ele não se interessa por coisas simples", icon: "🎨", color: "bg-rose-50 text-rose-600" },
-  { text: "Você sente falta de participar", icon: "😢", color: "bg-emerald-50 text-emerald-600" },
+  { text: "Corre pra dar conta de tudo", icon: "🏃‍♀️", color: "bg-orange-50 text-orange-600" },
+  { text: "Deixa de descansar pra cuidar dele", icon: "😴", color: "bg-blue-50 text-blue-600" },
+  { text: "Tenta ensinar entre uma tarefa e outra", icon: "📚", color: "bg-purple-50 text-purple-600" },
+  { text: "Se preocupa se ele está aprendendo", icon: "🤔", color: "bg-rose-50 text-rose-600" },
+  { text: "Pensa no futuro dele em silêncio", icon: "💭", color: "bg-emerald-50 text-emerald-600" },
 ];
 
 const DoresSecao = () => (
@@ -11,11 +11,10 @@ const DoresSecao = () => (
     <div className="container mx-auto px-4 max-w-4xl">
       <div className="text-center mb-12">
         <span className="inline-block bg-destructive/10 text-destructive font-bold text-xs px-4 py-1.5 rounded-full mb-4 uppercase tracking-widest">
-          MOMENTOS QUE DOEM
+          TEM ESFORÇO QUE NINGUÉM VÊ
         </span>
         <h2 className="text-3xl md:text-5xl font-heading font-extrabold text-primary-dark mb-6 text-balance leading-[1.1]">
-          Sabe aqueles momentos que parecem pequenos, <br className="hidden md:block" />
-          mas <span className="text-destructive underline decoration-destructive/20 underline-offset-8">ocupam o lugar da conversa</span>?
+          Tem esforço que ninguém vê.<br />Mas pesa todo dia.
         </h2>
       </div>
 
@@ -50,10 +49,10 @@ const DoresSecao = () => (
       
       <div className="mt-16 text-center space-y-4 max-w-2xl mx-auto">
         <h3 className="text-2xl md:text-3xl font-heading font-extrabold text-primary-dark leading-tight">
-          Às vezes, não é sobre tirar o celular.
+          Muita avó carrega uma casa inteira…
         </h3>
         <p className="text-foreground/80 text-lg md:text-xl leading-relaxed">
-          É sobre oferecer um momento melhor.
+          e ainda carrega preocupação no coração.
         </p>
       </div>
     </div>

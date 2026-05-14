@@ -7,20 +7,20 @@ const MemoriaQueFica = () => (
     <div className="container mx-auto px-4 max-w-4xl relative">
       <div className="text-center mb-12">
         <span className="inline-block bg-accent/10 text-accent font-bold text-xs px-4 py-1.5 rounded-full mb-4 uppercase tracking-widest">
-          VOCÊ TAMBÉM SENTE?
+          O CUIDADO QUE NINGUÉM VÊ
         </span>
         <h2 className="text-3xl md:text-5xl font-heading font-extrabold text-primary-dark mb-6 text-balance leading-[1.1]">
-          Você também sente que ele está crescendo dentro de uma tela?
+          Você também cuida de tudo… e ainda se preocupa com o futuro dele?
         </h2>
       </div>
 
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <div className="space-y-6 text-lg text-foreground/80 leading-relaxed">
           <p className="text-xl md:text-2xl font-medium text-primary-dark leading-snug">
-            E que, às vezes, está cada vez mais difícil viver momentos simples com ele.
+            Muitas avós hoje não são só avós. São apoio. São rotina. São colo. São presença diária.
           </p>
           <p className="bg-primary/5 p-6 rounded-2xl border-l-4 border-primary italic text-primary-dark/90">
-            "Talvez você não queira tirar tudo dele. Só queira devolver alguns momentos de infância real."
+            E uma das maiores dores é ver a criança crescer com dificuldade… sem saber exatamente como ajudar.
           </p>
         </div>
 
@@ -45,8 +45,11 @@ const MemoriaQueFica = () => (
       </div>
 
       <div className="mt-16 pt-8 border-t border-border/50 text-center">
-        <p className="text-xl md:text-3xl font-heading font-extrabold text-primary-dark text-balance italic opacity-90">
-          "Uma folha na mesa pode parecer pouca coisa. Mas pode virar um momento."
+        <h3 className="text-2xl md:text-4xl font-heading font-extrabold text-primary-dark mb-4">
+          Porque cuidar é importante. Mas participar do futuro dele marca ainda mais.
+        </h3>
+        <p className="text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto italic">
+          Tem momentos pequenos… que ficam pra sempre. Ele aprendendo uma palavra nova. Ele sorrindo porque conseguiu. Ele vindo correndo te mostrar. E você ali.
         </p>
       </div>
     </div>
