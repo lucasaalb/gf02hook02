@@ -8,6 +8,7 @@ import {
   DialogTitle,
   DialogDescription,
 } from "@/components/ui/dialog";
+import { trackLead } from "@/utils/utmify";
 
 const COMPLETO_URL = "https://ggcheckout.app/checkout/v2/42XeRTtQSIfeRRDs24CJ";
 const ESSENCIAL_URL = "https://ggcheckout.app/checkout/v2/OEwZ3gqKmwq1XzMSgDeN";
@@ -19,11 +20,13 @@ const PricingSection = () => {
 
   const handleEssencialClick = (e: React.MouseEvent) => {
     e.preventDefault();
+    trackLead();
     setShowDiscountModal(true);
   };
 
   const continuarPlanoBasico = () => {
     setShowDiscountModal(false);
+    trackLead();
     window.location.href = ESSENCIAL_URL;
   };
 
