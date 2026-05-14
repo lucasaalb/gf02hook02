@@ -3,9 +3,9 @@ import bonusReforco from "@/assets/bonus-reforco-escolar.webp";
 import bonusJogos from "@/assets/bonus-mini-jogos.webp";
 
 const bonuses = [
-  { img: bonusFichas, title: "Ensinar simples", desc: "Para você sempre ter uma nova forma de chamar ele para perto e variar a rotina." },
-  { img: bonusReforco, title: "Ver a evolução", desc: "Material visual e fácil de acompanhar para usar aos poucos, no tempo de vocês." },
-  { img: bonusJogos, title: "Sem insegurança", desc: "Materiais para você conduzir o momento com mais segurança, confiança e carinho." },
+  { img: bonusFichas, title: "Atividades Extras", desc: "Para você sempre ter uma nova forma de chamar ele para perto e variar a rotina." },
+  { img: bonusReforco, title: "Páginas para Imprimir", desc: "Material visual e fácil de acompanhar para usar aos poucos, no tempo de vocês." },
+  { img: bonusJogos, title: "Momentos de Leveza", desc: "Materiais para você conduzir o momento com mais segurança, segurança e carinho." },
 ];
 
 const BonusSection = () => (
@@ -21,7 +21,7 @@ const BonusSection = () => (
         BÔNUS ESPECIAIS
       </span>
       <h2 className="text-2xl md:text-4xl font-heading font-extrabold text-center text-primary-dark mb-3 text-balance">
-        Bônus para ajudar você a viver momentos que ficam 🎁
+        Bônus para deixar esse momento ainda mais especial 🎁
       </h2>
       <p className="text-center text-muted-foreground mb-10 max-w-xl mx-auto text-sm md:text-base">
         Não é sobre fazer muito. É sobre fazer junto.

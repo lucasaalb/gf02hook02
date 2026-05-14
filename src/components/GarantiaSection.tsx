@@ -11,17 +11,17 @@ const GarantiaSection = () => (
         className="w-28 md:w-40 mx-auto mb-5"
       />
       <h2 className="text-2xl md:text-3xl font-heading font-extrabold text-primary-dark mb-3">
-        Você entra tranquila.
+        Você pode decidir com tranquilidade.
       </h2>
       <p className="text-base md:text-xl font-extrabold text-primary mb-3">
-        "Sem risco. Sem complicação."
+        "Garantia de 7 dias"
       </p>
       <p className="text-foreground/80 text-sm md:text-base leading-relaxed max-w-md mx-auto">
-        Se sentir que não era o que esperava, pode pedir reembolso dentro do prazo.
+        Acesse o material, olhe com calma e veja se ele faz sentido para a sua rotina com a criança. Se perceber que não é para você, tudo bem. Devolvemos seu investimento.
       </p>
       <div className="flex items-center justify-center gap-2 mt-5 text-xs text-muted-foreground">
         <Shield className="w-4 h-4 text-support-green" />
-        <span>Garantia de 7 dias para você testar com calma na sua rotina.</span>
+        <span>A ideia não é te pressionar, mas te dar um caminho simples para criar momentos reais.</span>
       </div>
     </div>
   </section>

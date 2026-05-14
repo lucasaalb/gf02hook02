@@ -5,7 +5,7 @@ const ComoFunciona = () => (
         CONHEÇA A CRIADORA
       </span>
       <h2 className="text-2xl md:text-4xl font-heading font-extrabold text-center text-primary-dark mb-10">
-        Criado para ajudar você a viver momentos que ficam 👩‍🏫
+        Criado para ajudar você a criar momentos fora da tela 👩‍🏫
       </h2>
 
       <div className="grid md:grid-cols-[auto,1fr] gap-8 items-center bg-section-alt rounded-3xl p-6 md:p-10 shadow-card border border-border/60">
@@ -20,10 +20,10 @@ const ComoFunciona = () => (
         </div>
         <div>
           <p className="text-foreground/85 text-sm md:text-base leading-relaxed mb-4">
-            "Este material foi pensado para tornar o ensino mais simples e aproximar quem ama da criança nessa fase tão importante.
+            "Depois de anos ajudando crianças, percebi que o desafio não era só ensinar letras. Era conseguir chamar a criança para uma atividade simples, longe da tela, sem transformar aquilo em briga.
           </p>
           <p className="text-foreground/85 text-sm md:text-base leading-relaxed mb-5">
-            Muitas avós querem participar, mas travam pelo medo de estar desatualizadas. O <strong>Kit Grafismo Fonético</strong> tira esse peso, oferecendo um caminho seguro para você ser a pessoa que senta ao lado dele quando aprender parece difícil."
+            Foi assim que nasceu o <strong>Kit Grafismo Fonético</strong>: um material visual e acolhedor para ajudar a criança a aprender enquanto vive um momento real com quem ama. Porque alfabetizar também pode ser uma pausa bonita no meio de uma rotina cheia de telas."
           </p>
           <div className="border-l-4 border-accent pl-4">
             <p className="font-heading font-extrabold text-primary-dark text-base">Profª Mariana Alves</p>
