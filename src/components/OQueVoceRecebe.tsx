@@ -8,10 +8,10 @@ const OQueVoceRecebe = () => (
 
     <div className="container mx-auto px-4 max-w-3xl relative text-center">
       <span className="inline-flex items-center gap-2 bg-accent/30 text-primary-dark text-xs font-extrabold px-4 py-1.5 rounded-full mb-4 border border-accent uppercase tracking-wider">
-        <Heart className="w-3.5 h-3.5" /> PARA PARTICIPAR SEM COMPLICAÇÃO
+        <Heart className="w-3.5 h-3.5" /> CRIADO PARA AVÓS INSEGURAS
       </span>
       <h2 className="text-2xl md:text-4xl font-heading font-extrabold text-primary-dark mb-5 text-balance">
-        Por isso criamos algo simples… para você participar dessa fase sem complicação.
+        Foi para ajudar avós inseguras a começarem que o Kit Grafismo Fonético foi criado.
       </h2>
       <img
         src="https://qtbkvshbmqlszncxlcuc.supabase.co/storage/v1/object/public/dsl-uploads/JMNk0ffKBhRUfmaQlPxkiv042B83/87fcd4bc-81a9-46e1-9ce4-380754d13241.png"
@@ -20,16 +20,17 @@ const OQueVoceRecebe = () => (
         loading="lazy"
       />
       <p className="text-base md:text-lg text-foreground/80 leading-relaxed max-w-2xl mx-auto mb-4">
-        Algo fácil de usar. Leve. Pronto. Para vocês sentarem juntos alguns minutos por dia… e transformar tempo comum em aprendizado de verdade.
+        Um material simples, visual e pronto para usar. Você não precisa virar professora. Você escolhe uma atividade, senta ao lado do seu neto e acompanha com calma.
       </p>
       <p className="text-base md:text-lg text-foreground/80 leading-relaxed max-w-2xl mx-auto">
-        Sem depender de tecnologia difícil. Sem se sentir perdida. Sem achar que não consegue.
+        Sem termos difíceis. Sem pressão. Sem precisar fazer perfeito.
       </p>
 
       <div className="mt-8">
         <Button variant="cta" size="sm" className="w-full sm:w-auto text-[13px] sm:text-sm px-6 py-4 rounded-full shadow-lg text-primary-dark transition-all hover:scale-105" asChild>
-          <a href="#preco" className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO VER COMO FUNCIONA</a>
+          <a href="#preco" className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO COMEÇAR COM MAIS SEGURANÇA</a>
         </Button>
+        <p className="text-xs text-muted-foreground mt-3">Você pode usar aos poucos, no ritmo de vocês.</p>
       </div>
     </div>
   </section>

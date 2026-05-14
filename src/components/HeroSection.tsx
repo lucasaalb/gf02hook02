@@ -7,15 +7,15 @@ const HeroSection = () => (
   <section className="relative overflow-hidden pt-8 pb-12 md:py-16 bg-gradient-to-b from-secondary/40 via-background to-background">
     <div className="container mx-auto px-4 max-w-3xl text-center">
       <span className="inline-block bg-[hsl(var(--price-badge))]/40 text-primary-dark font-extrabold text-[11px] sm:text-xs px-4 py-1.5 rounded-full mb-5 border border-[hsl(var(--price-badge))]/60">
-        ✨ Para quem achou que não acompanhava mais
+        ✨ Para avós que querem ajudar sem medo
       </span>
 
       <h1 className="text-[1.85rem] leading-[1.1] sm:text-4xl lg:text-5xl font-heading font-extrabold text-primary-dark mb-4 text-balance px-1">
-        Eu achei que tinha ficado pra trás…<br />até perceber que ele ainda precisava de mim.
+        Eu tinha medo de ensinar errado.
       </h1>
 
       <p className="text-[0.95rem] sm:text-base lg:text-lg text-foreground/75 mb-8 max-w-xl mx-auto leading-relaxed px-4 italic">
-        Hoje é celular. É internet. É tela o tempo todo. E muitas avós começaram a sentir que já não conseguem acompanhar essa geração. Mas tem uma coisa que tecnologia nenhuma substitui: alguém presente ao lado da criança.
+        Até perceber que meu neto não precisava de uma professora perfeita. Ele precisava de alguém sentado ao lado dele. Talvez você também já tenha sentido isso: ele tenta escrever, troca uma letra, pergunta se está certo… e bate aquele medo de explicar errado. Mas o mais importante pode não ser saber tudo. Pode ser estar ali, com calma, carinho e um material simples para guiar esse momento.
       </p>
 
       <div className="relative mb-8 px-2">
@@ -23,7 +23,7 @@ const HeroSection = () => (
         <div className="absolute bottom-0 right-1/4 w-32 h-32 bg-primary/20 rounded-full blur-3xl" />
         <img
           src={heroImage}
-          alt="Kit de atividades para avós ensinarem os netos a ler"
+          alt="Kit de atividades para avós ajudarem os netos nas primeiras letras sem medo"
           loading="eager"
           fetchPriority="high"
           decoding="async"
@@ -35,10 +35,10 @@ const HeroSection = () => (
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 max-w-md mx-auto mb-6 text-left">
         {[
-          "Atividades simples para chamar a criança para perto",
+          "Atividades simples para fazer junto com a criança",
           "Ajuda nas primeiras letras, sons e coordenação",
-          "Ideal para criar pausas longe das telas",
-          "Um jeito leve de transformar aprendizado em tempo junto",
+          "Ideal para quem quer ajudar, mas não sabe por onde começar",
+          "Um jeito leve de participar do aprendizado do seu neto",
         ].map((item) => (
           <span key={item} className="flex items-start gap-2 text-foreground text-xs sm:text-sm font-bold">
             <Check className="w-4 h-4 text-support-green flex-shrink-0 mt-0.5" />
@@ -48,7 +48,7 @@ const HeroSection = () => (
       </div>
 
       <Button variant="cta" size="sm" className="w-full sm:w-auto text-[13px] sm:text-sm px-6 py-4 rounded-full shadow-lg text-primary-dark transition-all hover:scale-105" asChild>
-        <a href="#preco" className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO ESTAR MAIS PRESENTE COM MEU NETO</a>
+        <a href="#preco" className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO AJUDAR MEU NETO SEM MEDO</a>
       </Button>
 
       <div className="mt-4 flex justify-center">
