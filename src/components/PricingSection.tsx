@@ -123,7 +123,7 @@ const PricingSection = () => {
             </div>
 
             <Button variant="cta" size="sm" className="w-full text-sm sm:text-base py-4 rounded-full shadow-lg text-primary-dark transition-all hover:scale-105" asChild>
-              <a href={COMPLETO_URL} className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO O KIT COMPLETO →</a>
+              <a href={COMPLETO_URL} onClick={trackLead} className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO O KIT COMPLETO →</a>
             </Button>
 
             <div className="flex items-center justify-center gap-1.5 mt-3 text-[11px] text-muted-foreground">
