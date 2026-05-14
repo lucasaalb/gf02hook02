@@ -43,13 +43,13 @@ const PricingSection = () => {
           </div>
         </div>
         <span className="block text-center text-xs font-extrabold text-primary mb-2 uppercase tracking-wider">
-          MENOS TELA, MAIS VÍNCULO
+          O FUTURO DELE COMEÇA HOJE
         </span>
         <h2 className="text-2xl md:text-4xl font-heading font-extrabold text-center text-primary-dark mb-3 text-balance">
-          Escolha como quer começar a criar momentos fora da tela com seu neto. 💛
+          Escolha começar hoje.
         </h2>
         <p className="text-center text-muted-foreground mb-10 text-sm md:text-base">
-          Você pode começar de forma simples e transformar alguns minutos do dia em aprendizado, carinho e presença.
+          Porque cuidar é importante. Mas participar do futuro dele marca ainda mais.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-stretch">

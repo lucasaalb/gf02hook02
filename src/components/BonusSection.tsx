@@ -3,9 +3,9 @@ import bonusReforco from "@/assets/bonus-reforco-escolar.webp";
 import bonusJogos from "@/assets/bonus-mini-jogos.webp";
 
 const bonuses = [
-  { img: bonusFichas, title: "Atividades Extras", desc: "Para você sempre ter uma nova forma de chamar ele para perto e variar a rotina." },
-  { img: bonusReforco, title: "Páginas para Imprimir", desc: "Material visual e fácil de acompanhar para usar aos poucos, no tempo de vocês." },
-  { img: bonusJogos, title: "Momentos de Leveza", desc: "Materiais para você conduzir o momento com mais segurança, segurança e carinho." },
+  { img: bonusFichas, title: "Fácil de usar", desc: "Alguns minutos por dia já ajudam e aproximam vocês dois." },
+  { img: bonusReforco, title: "Tira ele do celular", desc: "Ajuda no começo da leitura e tira ele das telas por um tempo." },
+  { img: bonusJogos, title: "Mais segurança", desc: "Te dá mais segurança para ensinar seu neto com carinho." },
 ];
 
 const BonusSection = () => (
@@ -17,15 +17,15 @@ const BonusSection = () => (
     </div>
 
     <div className="container mx-auto px-4 max-w-5xl relative">
-      <span className="block text-center text-xs font-extrabold text-primary mb-2 uppercase tracking-wider">
-        BÔNUS ESPECIAIS
-      </span>
-      <h2 className="text-2xl md:text-4xl font-heading font-extrabold text-center text-primary-dark mb-3 text-balance">
-        Bônus para deixar esse momento ainda mais especial 🎁
-      </h2>
-      <p className="text-center text-muted-foreground mb-10 max-w-xl mx-auto text-sm md:text-base">
-        Não é sobre fazer muito. É sobre fazer junto.
-      </p>
+        <span className="block text-center text-xs font-extrabold text-primary mb-2 uppercase tracking-wider">
+          PARA QUEM JÁ FAZ TANTO
+        </span>
+        <h2 className="text-2xl md:text-4xl font-heading font-extrabold text-center text-primary-dark mb-3 text-balance">
+          Feito para quem já faz tanto… e só queria uma ajuda de verdade.
+        </h2>
+        <p className="text-center text-muted-foreground mb-10 max-w-xl mx-auto text-sm md:text-base">
+          Simples pra encaixar na sua rotina. Importante pra vida dele.
+        </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
         {bonuses.map(({ img, title, desc }) => (
