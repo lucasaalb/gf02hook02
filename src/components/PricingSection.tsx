@@ -99,9 +99,9 @@ const PricingSection = () => {
               {[
                 "Tudo do Kit Essencial",
                 "Mais atividades para variar os dias",
-                "🎁 Bônus: 30 Páginas de Desenhos Bíblicos",
-                "🎁 Bônus: Planner de Rotina com os Netos",
-                "🎁 Bônus: Cartões de Incentivo para imprimir",
+                "🎁 Bônus: Atividades Extras",
+                "🎁 Bônus: Páginas para Imprimir",
+                "🎁 Bônus: Momentos de Leveza",
                 "Acesso Vitalício (pague uma vez só)",
                 "Suporte prioritário via WhatsApp",
                 "Garantia Incondicional de 7 dias",
@@ -120,7 +120,7 @@ const PricingSection = () => {
             </div>
 
             <Button variant="cta" size="sm" className="w-full text-sm sm:text-base py-4 rounded-full shadow-lg text-primary-dark transition-all hover:scale-105" asChild>
-              <a href={COMPLETO_URL} className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO O KIT COMPLETO PARA USAR COM ELE →</a>
+              <a href={COMPLETO_URL} className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO O KIT COMPLETO →</a>
             </Button>
 
             <div className="flex items-center justify-center gap-1.5 mt-3 text-[11px] text-muted-foreground">
