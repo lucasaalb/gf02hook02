@@ -5,17 +5,17 @@ const FooterSection = () => (
     <div className="container mx-auto max-w-5xl">
       <div className="text-center mb-16 max-w-2xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-heading font-extrabold text-white mb-6">
-          Tem avó sustentando a infância de muita criança.
+          Você não ficou pra trás.
         </h2>
         <p className="text-white/80 text-lg mb-8">
-          E talvez ninguém fale disso. Mas ele vai lembrar. De quem cuidou. De quem ensinou. De quem esteve ali.
+          Talvez o mundo tenha mudado. Mas criança continua precisando de carinho. De atenção. De alguém ao lado. E nisso… você ainda é essencial.
         </p>
         <div className="space-y-4">
           <a 
             href="#preco" 
             className="inline-block w-full sm:w-auto bg-accent text-primary-dark font-extrabold px-8 py-4 rounded-full shadow-lg hover:scale-105 transition-transform"
           >
-            QUERO PARTICIPAR AINDA MAIS DESSA FASE
+            QUERO PARTICIPAR MAIS DESSA FASE
           </a>
           <p className="text-white/60 text-xs">Para valorizar quem sempre esteve presente.</p>
         </div>

@@ -7,15 +7,15 @@ const HeroSection = () => (
   <section className="relative overflow-hidden pt-8 pb-12 md:py-16 bg-gradient-to-b from-secondary/40 via-background to-background">
     <div className="container mx-auto px-4 max-w-3xl text-center">
       <span className="inline-block bg-[hsl(var(--price-badge))]/40 text-primary-dark font-extrabold text-[11px] sm:text-xs px-4 py-1.5 rounded-full mb-5 border border-[hsl(var(--price-badge))]/60">
-        ✨ Para avós que fazem papel de mãe
+        ✨ Para quem achou que não acompanhava mais
       </span>
 
       <h1 className="text-[1.85rem] leading-[1.1] sm:text-4xl lg:text-5xl font-heading font-extrabold text-primary-dark mb-4 text-balance px-1">
-        Tem avó fazendo papel de mãe…<br />e quase ninguém fala sobre isso.
+        Eu achei que tinha ficado pra trás…<br />até perceber que ele ainda precisava de mim.
       </h1>
 
       <p className="text-[0.95rem] sm:text-base lg:text-lg text-foreground/75 mb-8 max-w-xl mx-auto leading-relaxed px-4 italic">
-        Tem avó que acorda cedo. Arruma mochila. Faz comida. Busca na escola. Cuida quando adoece. Ensina quando ninguém mais pode. E mesmo fazendo tanto… ainda sente que podia ajudar mais.
+        Hoje é celular. É internet. É tela o tempo todo. E muitas avós começaram a sentir que já não conseguem acompanhar essa geração. Mas tem uma coisa que tecnologia nenhuma substitui: alguém presente ao lado da criança.
       </p>
 
       <div className="relative mb-8 px-2">
@@ -48,7 +48,7 @@ const HeroSection = () => (
       </div>
 
       <Button variant="cta" size="sm" className="w-full sm:w-auto text-[13px] sm:text-sm px-6 py-4 rounded-full shadow-lg text-primary-dark transition-all hover:scale-105" asChild>
-        <a href="#preco" className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO AJUDAR AINDA MAIS MEU NETO</a>
+        <a href="#preco" className="whitespace-normal h-auto py-2 leading-[1.2]">QUERO ESTAR MAIS PRESENTE COM MEU NETO</a>
       </Button>
 
       <div className="mt-4 flex justify-center">

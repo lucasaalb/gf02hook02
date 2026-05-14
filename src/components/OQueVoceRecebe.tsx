@@ -8,10 +8,10 @@ const OQueVoceRecebe = () => (
 
     <div className="container mx-auto px-4 max-w-3xl relative text-center">
       <span className="inline-flex items-center gap-2 bg-accent/30 text-primary-dark text-xs font-extrabold px-4 py-1.5 rounded-full mb-4 border border-accent uppercase tracking-wider">
-        <Heart className="w-3.5 h-3.5" /> UMA AJUDA DE VERDADE PARA VOCÊ
+        <Heart className="w-3.5 h-3.5" /> PARA PARTICIPAR SEM COMPLICAÇÃO
       </span>
       <h2 className="text-2xl md:text-4xl font-heading font-extrabold text-primary-dark mb-5 text-balance">
-        Por isso criamos algo simples… pra te ajudar nessa fase tão importante.
+        Por isso criamos algo simples… para você participar dessa fase sem complicação.
       </h2>
       <img
         src="https://qtbkvshbmqlszncxlcuc.supabase.co/storage/v1/object/public/dsl-uploads/JMNk0ffKBhRUfmaQlPxkiv042B83/87fcd4bc-81a9-46e1-9ce4-380754d13241.png"
@@ -20,10 +20,10 @@ const OQueVoceRecebe = () => (
         loading="lazy"
       />
       <p className="text-base md:text-lg text-foreground/80 leading-relaxed max-w-2xl mx-auto mb-4">
-        Algo leve, fácil e pronto. Pra você sentar com ele alguns minutos por dia… e transformar cuidado em aprendizado.
+        Algo fácil de usar. Leve. Pronto. Para vocês sentarem juntos alguns minutos por dia… e transformar tempo comum em aprendizado de verdade.
       </p>
       <p className="text-base md:text-lg text-foreground/80 leading-relaxed max-w-2xl mx-auto">
-        Sem complicação. Sem depender de ninguém. Sem precisar ser professora.
+        Sem depender de tecnologia difícil. Sem se sentir perdida. Sem achar que não consegue.
       </p>
 
       <div className="mt-8">

@@ -18,13 +18,13 @@ const BonusSection = () => (
 
     <div className="container mx-auto px-4 max-w-5xl relative">
         <span className="block text-center text-xs font-extrabold text-primary mb-2 uppercase tracking-wider">
-          PARA QUEM JÁ FAZ TANTO
+          ALÉM DAS ATIVIDADES
         </span>
         <h2 className="text-2xl md:text-4xl font-heading font-extrabold text-center text-primary-dark mb-3 text-balance">
-          Feito para quem já faz tanto… e só queria uma ajuda de verdade.
+          Tudo o que você precisa para participar mais.
         </h2>
         <p className="text-center text-muted-foreground mb-10 max-w-xl mx-auto text-sm md:text-base">
-          Simples pra encaixar na sua rotina. Importante pra vida dele.
+          Alguns minutos por dia ao lado dele podem marcar mais do que horas numa tela.
         </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">

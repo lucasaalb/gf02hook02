@@ -1,10 +1,10 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const faqs = [
-  { q: "Preciso saber ensinar?", a: "Não. Foi feito para ser simples. Você só precisa acompanhar o material ao lado do seu neto." },
+  { q: "Preciso saber mexer em tecnologia?", a: "Não. Tudo foi pensado para ser simples e direto, sem complicações digitais." },
+  { q: "Serve mesmo se eu estiver enferrujada?", a: "Sim. Justamente para quem sente isso. O material te guia passo a passo." },
   { q: "Precisa muito tempo?", a: "Não. Alguns minutos por dia já ajudam muito no desenvolvimento dele." },
-  { q: "Serve para netos pequenos?", a: "Principalmente para quem está começando a aprender as primeiras letras e sons." },
-  { q: "É difícil usar?", a: "Não. Tudo pensado para facilitar sua rotina e ser intuitivo para você e para ele." },
+  { q: "Serve para qual fase?", a: "Principalmente para crianças no começo da leitura." },
 ];
 
 const FAQSection = () => (

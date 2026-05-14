@@ -18,10 +18,10 @@ const examples = [
 ];
 
 const cards = [
-  { icon: UserPlus, text: "Presente", color: "text-rose-500", bg: "bg-rose-50/50" },
-  { icon: Clock, text: "Paciente", color: "text-amber-500", bg: "bg-amber-50/50" },
-  { icon: Gift, text: "Importante", color: "text-emerald-500", bg: "bg-emerald-50/50" },
-  { icon: BookOpen, text: "Lembrada", color: "text-sky-500", bg: "bg-sky-50/50" },
+  { icon: UserPlus, text: "Conexão", color: "text-rose-500", bg: "bg-rose-50/50" },
+  { icon: Clock, text: "Presença", color: "text-amber-500", bg: "bg-amber-50/50" },
+  { icon: Gift, text: "Confiança", color: "text-emerald-500", bg: "bg-emerald-50/50" },
+  { icon: BookOpen, text: "Diferença", color: "text-sky-500", bg: "bg-sky-50/50" },
 ];
 
 const ExemplosConteudo = () => {
@@ -39,10 +39,10 @@ const ExemplosConteudo = () => {
         {/* Parte: O que a avó se torna */}
         <div className="text-center mb-12 max-w-3xl mx-auto animate-fade-in">
           <span className="inline-block text-[10px] md:text-xs font-black text-primary/60 mb-6 uppercase tracking-[0.2em] bg-primary/5 px-4 py-1.5 rounded-full">
-            QUEM VOCÊ VOLTA A SER
+            SEU PAPEL É ÚNICO
           </span>
           <h2 className="text-3xl md:text-5xl font-heading font-extrabold text-primary-dark mb-8 leading-[1.15] text-balance">
-            Não é só sobre o que ele aprende. <span className="text-primary block md:inline mt-2 md:mt-0">É sobre quem você volta a ser na rotina dele.</span>
+            Feito para quem achou que não acompanhava mais… <span className="text-primary block md:inline mt-2 md:mt-0">mas ainda tem muito para oferecer.</span>
           </h2>
           
           <div className="space-y-8 text-lg md:text-xl text-foreground/70 leading-relaxed max-w-2xl mx-auto">
@@ -86,7 +86,7 @@ const ExemplosConteudo = () => {
         <div className="mb-16 animate-fade-in pt-8">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-5xl font-heading font-extrabold text-primary-dark mb-6 leading-tight">
-              Simples para você. <span className="text-primary italic">Leve para ele.</span>
+              Simples pra você usar. <span className="text-primary italic">Importante pra vida dele.</span>
             </h2>
             <p className="text-lg md:text-xl text-foreground/60 max-w-2xl mx-auto leading-relaxed">
               Atividades prontas para usar em casa, sem complicação e sem pressa.
@@ -146,7 +146,7 @@ const ExemplosConteudo = () => {
           <br />
           <Button variant="cta" size="sm" className="w-full sm:w-auto text-base px-8 py-6 rounded-full shadow-lg hover:scale-105 transition-transform" asChild>
             <a href="#preco" className="whitespace-normal h-auto py-2 leading-tight flex items-center gap-3">
-              <span>QUERO VIVER ISSO COM MEU NETO</span>
+              <span>QUERO RECEBER AGORA</span>
               <ChevronRight className="w-5 h-5" />
             </a>
           </Button>
