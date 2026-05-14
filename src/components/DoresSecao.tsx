@@ -1,20 +1,20 @@
 const dores = [
-  { text: "Corre pra dar conta de tudo", icon: "🏃‍♀️", color: "bg-orange-50 text-orange-600" },
-  { text: "Deixa de descansar pra cuidar dele", icon: "😴", color: "bg-blue-50 text-blue-600" },
-  { text: "Tenta ensinar entre uma tarefa e outra", icon: "📚", color: "bg-purple-50 text-purple-600" },
-  { text: "Se preocupa se ele está aprendendo", icon: "🤔", color: "bg-rose-50 text-rose-600" },
-  { text: "Pensa no futuro dele em silêncio", icon: "💭", color: "bg-emerald-50 text-emerald-600" },
+  { text: "“acho que não acompanho mais”", icon: "👵", color: "bg-orange-50 text-orange-600" },
+  { text: "“não sei como ajudar hoje em dia”", icon: "🤔", color: "bg-blue-50 text-blue-600" },
+  { text: "“parece que meu tempo já passou”", icon: "⏳", color: "bg-purple-50 text-purple-600" },
+  { text: "“talvez eu esteja ficando pra trás”", icon: "💭", color: "bg-rose-50 text-rose-600" },
+  { text: "Sente o mundo rápido demais", icon: "🏃", color: "bg-emerald-50 text-emerald-600" },
 ];
 
 const DoresSecao = () => (
   <section className="py-16 md:py-24 bg-[#FDFBF7]">
-    <div className="container mx-auto px-4 max-w-4xl">
+    <div id="identificacao" className="container mx-auto px-4 max-w-4xl">
       <div className="text-center mb-12">
         <span className="inline-block bg-destructive/10 text-destructive font-bold text-xs px-4 py-1.5 rounded-full mb-4 uppercase tracking-widest">
-          TEM ESFORÇO QUE NINGUÉM VÊ
+          A VERDADE É OUTRA
         </span>
         <h2 className="text-3xl md:text-5xl font-heading font-extrabold text-primary-dark mb-6 text-balance leading-[1.1]">
-          Tem esforço que ninguém vê.<br />Mas pesa todo dia.
+          Criança não precisa só de tela.<br />Precisa de alguém ali do lado.
         </h2>
       </div>
 
@@ -49,10 +49,10 @@ const DoresSecao = () => (
       
       <div className="mt-16 text-center space-y-4 max-w-2xl mx-auto">
         <h3 className="text-2xl md:text-3xl font-heading font-extrabold text-primary-dark leading-tight">
-          Muita avó carrega uma casa inteira…
+          Ela precisa de incentivo, atenção e paciência…
         </h3>
         <p className="text-foreground/80 text-lg md:text-xl leading-relaxed">
-          e ainda carrega preocupação no coração.
+          e nisso… você continua sendo insubstituível.
         </p>
       </div>
     </div>

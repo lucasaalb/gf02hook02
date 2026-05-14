@@ -19,10 +19,10 @@ const TestimonialsSection = () => {
     <section className="py-14 md:py-20 bg-section-alt">
       <div className="container mx-auto px-4 max-w-6xl">
         <span className="block text-center text-xs font-extrabold text-primary mb-2 uppercase tracking-wider">
-          RECONHECIMENTO
+          HISTÓRIAS REAIS
         </span>
         <h2 className="text-2xl md:text-4xl font-heading font-extrabold text-center text-primary-dark mb-3 text-balance">
-          Avós que já cuidavam de tudo… e agora também participam ainda mais do aprendizado.
+          Avós que achavam que tinham ficado pra trás… e hoje participam muito mais.
         </h2>
         <p className="text-center text-muted-foreground mb-8 max-w-xl mx-auto text-sm md:text-base">
           Criado para valorizar quem sempre esteve presente e faz muito.
@@ -68,13 +68,13 @@ const TestimonialsSection = () => {
 
         <div className="mt-12 text-center max-w-2xl mx-auto">
           <p className="text-xl md:text-2xl font-medium italic text-primary-dark/80 leading-relaxed">
-            “Eu já fazia papel de mãe. Isso me ajudou muito.”
+            “Eu achava que não conseguia acompanhar mais nada. Hoje ele aprende comigo.”
           </p>
         </div>
 
         <div className="mt-4 text-center max-w-2xl mx-auto">
           <p className="text-lg md:text-xl font-medium italic text-primary-dark/80 leading-relaxed">
-            “Agora ele senta comigo feliz. Me sinto mais útil vendo ele aprender.”
+            “Me sentia ultrapassada. Agora ele me chama pra sentar do lado. Percebi que criança precisa mais da gente do que da tela.”
           </p>
         </div>
 

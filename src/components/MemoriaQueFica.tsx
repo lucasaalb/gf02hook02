@@ -7,20 +7,20 @@ const MemoriaQueFica = () => (
     <div className="container mx-auto px-4 max-w-4xl relative">
       <div className="text-center mb-12">
         <span className="inline-block bg-accent/10 text-accent font-bold text-xs px-4 py-1.5 rounded-full mb-4 uppercase tracking-widest">
-          O CUIDADO QUE NINGUÉM VÊ
+          ALGO MUDOU
         </span>
         <h2 className="text-3xl md:text-5xl font-heading font-extrabold text-primary-dark mb-6 text-balance leading-[1.1]">
-          Você também cuida de tudo… e ainda se preocupa com o futuro dele?
+          Você também cuida de tudo… e sente que o mundo mudou rápido demais?
         </h2>
       </div>
 
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <div className="space-y-6 text-lg text-foreground/80 leading-relaxed">
           <p className="text-xl md:text-2xl font-medium text-primary-dark leading-snug">
-            Muitas avós hoje não são só avós. São apoio. São rotina. São colo. São presença diária.
+            Tudo parece diferente. A escola mudou. O jeito de ensinar mudou. As crianças mudaram. A tecnologia tomou espaço.
           </p>
           <p className="bg-primary/5 p-6 rounded-2xl border-l-4 border-primary italic text-primary-dark/90">
-            E uma das maiores dores é ver a criança crescer com dificuldade… sem saber exatamente como ajudar.
+            E no meio disso tudo, muita avó começou a pensar: "Será que ainda consigo ajudar em alguma coisa?"
           </p>
         </div>
 
@@ -46,10 +46,10 @@ const MemoriaQueFica = () => (
 
       <div className="mt-16 pt-8 border-t border-border/50 text-center">
         <h3 className="text-2xl md:text-4xl font-heading font-extrabold text-primary-dark mb-4">
-          Porque cuidar é importante. Mas participar do futuro dele marca ainda mais.
+          O pior não é a tecnologia. É sentir que ficou de fora.
         </h3>
         <p className="text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto italic">
-          Tem momentos pequenos… que ficam pra sempre. Ele aprendendo uma palavra nova. Ele sorrindo porque conseguiu. Ele vindo correndo te mostrar. E você ali.
+          Você vê ele mexendo no celular. Vê ele aprendendo coisas novas. Vê tudo acontecendo rápido. E às vezes bate aquela sensação silenciosa: "não sei como ajudar hoje em dia".
         </p>
       </div>
     </div>

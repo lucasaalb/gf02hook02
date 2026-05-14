@@ -37,7 +37,7 @@ const PricingSection = () => {
           <div className="bg-destructive/5 border border-destructive/20 rounded-3xl p-6 md:p-8 text-center shadow-sm relative overflow-hidden group hover:border-destructive/40 transition-colors">
             <div className="absolute top-0 left-0 w-full h-1 bg-destructive/20" />
             <p className="text-xl md:text-2xl font-heading font-extrabold text-primary-dark leading-tight">
-              "O tempo passa. Daqui a pouco ele cresce. A rotina muda. Mas o que você constrói agora… pode ficar pra sempre."
+              "Porque a infância passa rápido. Daqui a pouco ele cresce. As fases mudam. Os interesses mudam. Mas o tempo que vocês vivem agora… ninguém devolve depois."
             </p>
           </div>
         </div>
@@ -48,7 +48,7 @@ const PricingSection = () => {
           Escolha começar hoje.
         </h2>
         <p className="text-center text-muted-foreground mb-10 text-sm md:text-base">
-          Porque cuidar é importante. Mas participar do futuro dele marca ainda mais.
+          Porque a infância passa rápido e o tempo que vivem agora não volta.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-stretch">

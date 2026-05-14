@@ -21,7 +21,7 @@ const GarantiaSection = () => (
       </p>
       <div className="flex items-center justify-center gap-2 mt-5 text-xs text-muted-foreground">
         <Shield className="w-4 h-4 text-support-green" />
-        <span>A ideia não é te pressionar, mas te dar um caminho simples para criar momentos reais.</span>
+        <span>Se não gostar, você não corre nenhum risco. Sem complicação.</span>
       </div>
     </div>
   </section>
